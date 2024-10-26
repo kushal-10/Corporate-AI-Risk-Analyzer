@@ -1,0 +1,512 @@
+[
+    {
+        "company_name": "State Bank of India",
+        "revenue": 91.89,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "ITC",
+        "revenue": 73.68,
+        "sector": "Consumer Staples",
+        "country": "India"
+    },
+    {
+        "company_name": "Maruti Suzuki India",
+        "revenue": 45.66,
+        "sector": "Industries",
+        "country": "India"
+    },
+    {
+        "company_name": "Oil&Natural Gas",
+        "revenue": 46.31,
+        "sector": "Energy",
+        "country": "India"
+    },
+    {
+        "company_name": "Bharti Airtel",
+        "revenue": 107.39,
+        "sector": "Communication Services",
+        "country": "India"
+    },
+    {
+        "company_name": "Hindustan Unilever",
+        "revenue": 76.16,
+        "sector": "Consumer Staples",
+        "country": "India"
+    },
+    {
+        "company_name": "Axis Bank",
+        "revenue": 42.72,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Tata Consultancy Services",
+        "revenue": 189.9,
+        "sector": "Information Technology",
+        "country": "India"
+    },
+    {
+        "company_name": "ICICI Bank",
+        "revenue": 99.33,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Reliance Industries",
+        "revenue": 244.77,
+        "sector": "Energy",
+        "country": "India"
+    },
+    {
+        "company_name": "Kotak Mahindra Bank",
+        "revenue": 41.8,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Bajaj Finance",
+        "revenue": 53.94,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Infosys",
+        "revenue": 90.16,
+        "sector": "Information Technology",
+        "country": "India"
+    },
+    {
+        "company_name": "HDFC Bank",
+        "revenue": 152.34,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Larsen & Toubro",
+        "revenue": 58.58,
+        "sector": "Industries",
+        "country": "India"
+    },
+    {
+        "company_name": "HCL Technologies",
+        "revenue": 56.64,
+        "sector": "Information Technology",
+        "country": "India"
+    },
+    {
+        "company_name": "Tata Motors",
+        "revenue": 50.61,
+        "sector": "Industries",
+        "country": "India"
+    },
+    {
+        "company_name": "NTPC Limited",
+        "revenue": 45.66,
+        "sector": "Energy",
+        "country": "India"
+    },
+    {
+        "company_name": "Life Insurance Corporation of India",
+        "revenue": 89.05,
+        "sector": "Financial Service",
+        "country": "India"
+    },
+    {
+        "company_name": "Sun Pharmaceutical",
+        "revenue": 52.18,
+        "sector": "Health Care",
+        "country": "India"
+    },
+    {
+        "company_name": "United Health",
+        "revenue": 551.16,
+        "sector": "Health Care",
+        "country": "USA"
+    },
+    {
+        "company_name": "Alphabet(Google)",
+        "revenue": 2062.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Mastercard",
+        "revenue": 439.85,
+        "sector": "Financial Service",
+        "country": "USA"
+    },
+    {
+        "company_name": "Meta Platforms (Facebook)",
+        "revenue": 1234.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Costco",
+        "revenue": 388.66,
+        "sector": "Consumer Staples",
+        "country": "USA"
+    },
+    {
+        "company_name": "Morgan&Chase",
+        "revenue": 604.48,
+        "sector": "Financial Service",
+        "country": "USA"
+    },
+    {
+        "company_name": "Procter&Gamble",
+        "revenue": 412.58,
+        "sector": "Consumer Staples",
+        "country": "USA"
+    },
+    {
+        "company_name": "Microsoft",
+        "revenue": 3036.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Tesla",
+        "revenue": 663.43,
+        "sector": "Industries",
+        "country": "USA"
+    },
+    {
+        "company_name": "NVIDIA",
+        "revenue": 2638.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Johnson&Johnson",
+        "revenue": 395.7,
+        "sector": "Health Care",
+        "country": "USA"
+    },
+    {
+        "company_name": "Broadcom",
+        "revenue": 669.46,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Walmart",
+        "revenue": 616.05,
+        "sector": "Consumer Staples",
+        "country": "USA"
+    },
+    {
+        "company_name": "Visa",
+        "revenue": 543.62,
+        "sector": "Financial Service",
+        "country": "USA"
+    },
+    {
+        "company_name": "APPLE",
+        "revenue": 3371.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Tesla",
+        "revenue": 663.43,
+        "sector": "Industries",
+        "country": "USA"
+    },
+    {
+        "company_name": "Exxon Mobil",
+        "revenue": 500.44,
+        "sector": "Energy",
+        "country": "USA"
+    },
+    {
+        "company_name": "Oracle",
+        "revenue": 390.8,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Berkshire Hathaway",
+        "revenue": 922.79,
+        "sector": "Financial Service",
+        "country": "USA"
+    },
+    {
+        "company_name": "Amazon",
+        "revenue": 1761.0,
+        "sector": "Information Technology",
+        "country": "USA"
+    },
+    {
+        "company_name": "Eli Lilly",
+        "revenue": 724.33,
+        "sector": "Health Care",
+        "country": "USA"
+    },
+    {
+        "company_name": "Allianz",
+        "revenue": 106.68,
+        "sector": "Financial Service",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Merck",
+        "revenue": 78.9,
+        "sector": "Health Care",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Beiersdorf",
+        "revenue": 32.13,
+        "sector": "Consumer Staples",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Mercedes-Benz",
+        "revenue": 68.14,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Henkel",
+        "revenue": 35.64,
+        "sector": "Consumer Staples",
+        "country": "Germany"
+    },
+    {
+        "company_name": "DHL Group",
+        "revenue": 49.82,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Deutsche B\u00f6rse",
+        "revenue": 41.91,
+        "sector": "Financial Service",
+        "country": "Germany"
+    },
+    {
+        "company_name": "BASF",
+        "revenue": 42.93,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Porsche",
+        "revenue": 67.4,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Siemens",
+        "revenue": 135.42,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Deutsche Telekom",
+        "revenue": 130.56,
+        "sector": "Communication Services",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Siemens Healthineers",
+        "revenue": 58.91,
+        "sector": "Health Care",
+        "country": "Germany"
+    },
+    {
+        "company_name": "BMW",
+        "revenue": 55.03,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Volkswagen",
+        "revenue": 55.93,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Infineon",
+        "revenue": 41.66,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Mercedes-Benz",
+        "revenue": 68.14,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Siemens",
+        "revenue": 135.42,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Munich RE",
+        "revenue": 63.39,
+        "sector": "Financial Service",
+        "country": "Germany"
+    },
+    {
+        "company_name": "ON",
+        "revenue": 38.46,
+        "sector": "Energy",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Volkswagen",
+        "revenue": 55.93,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Adidas",
+        "revenue": 244.57,
+        "sector": "Consumer Discretionary",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Porsche",
+        "revenue": 67.4,
+        "sector": "Industries",
+        "country": "Germany"
+    },
+    {
+        "company_name": "Hannover R\u00fcck",
+        "revenue": 33.67,
+        "sector": "Financial Service",
+        "country": "Germany"
+    },
+    {
+        "company_name": "SAP",
+        "revenue": 240.94,
+        "sector": "Information Technology",
+        "country": "Germany"
+    },
+    {
+        "company_name": "CM Bank",
+        "revenue": 108.68,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "Bank of China",
+        "revenue": 175.5,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "PetroChina",
+        "revenue": 218.98,
+        "sector": "Energy",
+        "country": "China"
+    },
+    {
+        "company_name": "Agricultural Bank of China",
+        "revenue": 221.35,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "China Mobile",
+        "revenue": 206.74,
+        "sector": "Communication Services",
+        "country": "China"
+    },
+    {
+        "company_name": "China Yangtze Power",
+        "revenue": 100.53,
+        "sector": "Energy",
+        "country": "China"
+    },
+    {
+        "company_name": "PingAn Insurance",
+        "revenue": 100.07,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "Alibaba",
+        "revenue": 187.26,
+        "sector": "Information Technology",
+        "country": "China"
+    },
+    {
+        "company_name": "Kweichow Moutai",
+        "revenue": 243.08,
+        "sector": "Consumer Staples",
+        "country": "China"
+    },
+    {
+        "company_name": "China Shenhua Energy",
+        "revenue": 103.81,
+        "sector": "Energy",
+        "country": "China"
+    },
+    {
+        "company_name": "CNOOC",
+        "revenue": 124.7,
+        "sector": "Energy",
+        "country": "China"
+    },
+    {
+        "company_name": "Pinduoduo",
+        "revenue": 176.94,
+        "sector": "Information Technology",
+        "country": "China"
+    },
+    {
+        "company_name": "Sinopec",
+        "revenue": 104.55,
+        "sector": "Energy",
+        "country": "China"
+    },
+    {
+        "company_name": "Meituan",
+        "revenue": 93.17,
+        "sector": "Information Technology",
+        "country": "China"
+    },
+    {
+        "company_name": "CATL",
+        "revenue": 115.41,
+        "sector": "Industries",
+        "country": "China"
+    },
+    {
+        "company_name": "Tencent",
+        "revenue": 428.32,
+        "sector": "Information Technology",
+        "country": "China"
+    },
+    {
+        "company_name": "ICBC",
+        "revenue": 267.08,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "China Iife Insurance",
+        "revenue": 111.24,
+        "sector": "Financial Service",
+        "country": "China"
+    },
+    {
+        "company_name": "BYD",
+        "revenue": 98.15,
+        "sector": "Industries",
+        "country": "China"
+    },
+    {
+        "company_name": "China Construction Bank",
+        "revenue": 178.16,
+        "sector": "Financial Service",
+        "country": "China"
+    }
+]
