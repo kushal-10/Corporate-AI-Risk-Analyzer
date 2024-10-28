@@ -24,22 +24,22 @@ def translate_text(text):
     tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 
-# for country in os.listdir(root_dir):
-#     for company in tqdm(os.listdir(os.path.join(root_dir, country)), desc=f"Processing {country}"):
-#         for year in os.listdir(os.path.join(root_dir, country, company)):
-#             csv_path = os.path.join(root_dir, country, company, year, f"results.csv")
-#             save_subdir = os.path.join(save_dir, country, company, year)
-#             if not os.path.exists(save_subdir):
-#                 df = pd.read_csv(csv_path)
-#                 text = ""
-#                 for i in range(len(df)):
-#                     text += df.iloc[i]['content']
-#                 lang = detect(text)
-#                 if lang == 'en':
-#                     os.makedirs(save_subdir)
-#                     save_path = os.path.join(save_subdir, f"results.txt")
-#                     with open(save_path, 'w') as f:
-#                         f.write(text)
+for country in os.listdir(root_dir):
+    for company in tqdm(os.listdir(os.path.join(root_dir, country)), desc=f"Processing {country}"):
+        for year in os.listdir(os.path.join(root_dir, country, company)):
+            csv_path = os.path.join(root_dir, country, company, year, f"results.csv")
+            save_subdir = os.path.join(save_dir, country, company, year)
+            if not os.path.exists(save_subdir):
+                df = pd.read_csv(csv_path)
+                text = ""
+                for i in range(len(df)):
+                    text += df.iloc[i]['content']
+                lang = detect(text)
+                if lang == 'en':
+                    os.makedirs(save_subdir)
+                    save_path = os.path.join(save_subdir, f"results.txt")
+                    with open(save_path, 'w') as f:
+                        f.write(text)
 
-translate_text("où est l'arrêt de bus ?")
+# translate_text("où est l'arrêt de bus ?")
 
