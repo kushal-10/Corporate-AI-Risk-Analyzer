@@ -165,3 +165,4 @@ cython_debug/
 # Business Insights
 annual_reports
 annual_splits
+annual_csvs
