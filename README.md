@@ -16,3 +16,9 @@ Run this script to clean the pdfs, split them into chunks and extract company me
 ```bash
 python preprocess/gcp_ocr.py
 ```
+
+This script processes the pdfs and saves the results in `annual_csvs`.
+
+
+## Retrieval
+
