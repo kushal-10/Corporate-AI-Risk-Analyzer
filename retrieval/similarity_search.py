@@ -32,7 +32,7 @@ def generate_docs(loader):
     """
 
     retriever = db.as_retriever(
-        search_type="similarity_score_threshold", search_kwargs={"score_threshold": 0.6, "k": 10}
+        search_type="similarity_score_threshold", search_kwargs={"score_threshold": 0.5, "k": 10}
     )
     docs = retriever.invoke(search_query)
 
@@ -41,5 +41,9 @@ def generate_docs(loader):
 if __name__ == "__main__":
     loader = TextLoader("annual_txts/USA/3.NVIDIA_$2.638 T_Information Tech/2023/results.txt")
     docs = generate_docs(loader)
+    print("FETCHED DOCS #############################################################################")
+    for doc in docs:
+        print(doc.page_content)
+        print("-"*100)
     
     print(len(docs))
