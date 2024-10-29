@@ -17,7 +17,7 @@ def generate_docs(loader):
     """
 
     retriever = db.as_retriever(
-        search_type="similarity_score_threshold", search_kwargs={"score_threshold": 0.5, "k": 10}
+        search_type="similarity_score_threshold", search_kwargs={"k": 10}
     )
     docs = retriever.invoke(search_query)
 
