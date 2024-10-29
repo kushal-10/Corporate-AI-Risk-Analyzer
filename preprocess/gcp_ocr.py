@@ -106,9 +106,7 @@ if __name__ == "__main__":
     countries = os.listdir(split_dir)
 
     def process_company(company, country):
-        if country != "India":  # Only process if the country is China
-            return  # Skip processing for other countries
-        processor_display_name = f"{company}-ocr-processor-1"  # Unique processor name for each company
+        processor_display_name = f"{company}-ocr-processor"  # Unique processor name for each company
         processor = create_processor(project_id, location, processor_display_name)
         processor_name = processor.name
         extracted_data = []
