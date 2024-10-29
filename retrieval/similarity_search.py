@@ -6,7 +6,6 @@ import os
 import json  # Import the json module
 from tqdm import tqdm
 import torch  # Import torch to check for GPU availability
-from concurrent.futures import ThreadPoolExecutor  # Import ThreadPoolExecutor for parallel processing
 
 def generate_docs(loader):
     documents = loader.load()
@@ -45,20 +44,16 @@ if __name__ == "__main__":
     except FileNotFoundError:
         pass  # If the file doesn't exist, start with an empty dictionary
 
-    with ThreadPoolExecutor() as executor:  # Use ThreadPoolExecutor for parallel processing
-        futures = []
-        for country_dir in country_dirs:
-            for company_dir in tqdm(os.listdir(os.path.join(base_dir, country_dir)), desc=f"Processing {country_dir}"):
-                for year_dir in os.listdir(os.path.join(base_dir, country_dir, company_dir)):
-                    file_path = os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")
-                    
-                    # Check if the key already exists
-                    if file_path not in docs_dict:
-                        futures.append(executor.submit(process_file, file_path))  # Submit the file processing to the executor
-
-        for future in futures:
-            file_path, doc_contents = future.result()  # Get the results from the futures
-            docs_dict[file_path] = doc_contents  # Store the documents in the dictionary
+    for country_dir in country_dirs:
+        for company_dir in tqdm(os.listdir(os.path.join(base_dir, country_dir)), desc=f"Processing {country_dir}"):
+            for year_dir in os.listdir(os.path.join(base_dir, country_dir, company_dir)):
+                file_path = os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")
+                
+                # Check if the key already exists
+                if file_path not in docs_dict:
+                    # Directly call process_file instead of using ThreadPoolExecutor
+                    file_path, doc_contents = process_file(file_path)  # Process the file
+                    docs_dict[file_path] = doc_contents  # Store the documents in the dictionary
 
     # Save the updated dictionary to a JSON file immediately after retrieval
     with open('retrieval/retrieved_docs.json', 'w') as json_file:
