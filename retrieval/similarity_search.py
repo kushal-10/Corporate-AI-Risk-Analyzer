@@ -5,6 +5,8 @@ from langchain.document_loaders import TextLoader
 import os
 import json  # Import the json module
 from tqdm import tqdm
+import torch  # Import torch to check for GPU availability
+from concurrent.futures import ThreadPoolExecutor  # Import ThreadPoolExecutor for parallel processing
 
 def generate_docs(loader):
     documents = loader.load()
@@ -12,7 +14,9 @@ def generate_docs(loader):
     texts = text_splitter.split_documents(documents)
     
     # Use open-source embeddings from Hugging Face's sentence-transformers
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")  # Set device
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")  # Create embeddings instance
+    device = "cuda" if torch.cuda.is_available() else "cpu"  # Check if GPU is available
+    embeddings.model.to(device)  # Move the model to the appropriate device
     db = FAISS.from_documents(texts, embeddings)
 
     search_query = """Artificial Intelligence, Machine Learning, Data Science, Neural Networks, Robotics, Big Data, Deep Learning"""
@@ -21,6 +25,13 @@ def generate_docs(loader):
     docs = retriever.invoke(search_query)
 
     return docs
+
+def process_file(file_path):
+    loader = TextLoader(file_path)
+    docs = generate_docs(loader)
+    if len(docs) == 0:
+        print(f"No docs found for {file_path}")
+    return file_path, [doc.page_content for doc in docs]  # Return the file path and document contents
 
 if __name__ == "__main__":
     base_dir = "annual_txts"
@@ -34,21 +45,21 @@ if __name__ == "__main__":
     except FileNotFoundError:
         pass  # If the file doesn't exist, start with an empty dictionary
 
-    for country_dir in country_dirs:
-        for company_dir in tqdm(os.listdir(os.path.join(base_dir, country_dir)), desc=f"Processing {country_dir}"):
-            for year_dir in os.listdir(os.path.join(base_dir, country_dir, company_dir)):
-                file_path = os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")
-                
-                # Check if the key already exists
-                if file_path not in docs_dict:
-                    loader = TextLoader(file_path)
-                    docs = generate_docs(loader)
-                    if len(docs) == 0:
-                        print(f"No docs found for {file_path}")
-            
-                    # Store the documents in the dictionary with the path as the key
-                    docs_dict[file_path] = [doc.page_content for doc in docs]
+    with ThreadPoolExecutor() as executor:  # Use ThreadPoolExecutor for parallel processing
+        futures = []
+        for country_dir in country_dirs:
+            for company_dir in tqdm(os.listdir(os.path.join(base_dir, country_dir)), desc=f"Processing {country_dir}"):
+                for year_dir in os.listdir(os.path.join(base_dir, country_dir, company_dir)):
+                    file_path = os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")
                     
-                    # Save the updated dictionary to a JSON file immediately after retrieval
-                    with open('retrieval/retrieved_docs.json', 'w') as json_file:
-                        json.dump(docs_dict, json_file, indent=4)  # Write the updated dictionary to a JSON file with indentation
+                    # Check if the key already exists
+                    if file_path not in docs_dict:
+                        futures.append(executor.submit(process_file, file_path))  # Submit the file processing to the executor
+
+        for future in futures:
+            file_path, doc_contents = future.result()  # Get the results from the futures
+            docs_dict[file_path] = doc_contents  # Store the documents in the dictionary
+
+    # Save the updated dictionary to a JSON file immediately after retrieval
+    with open('retrieval/retrieved_docs.json', 'w') as json_file:
+        json.dump(docs_dict, json_file, indent=4)  # Write the updated dictionary to a JSON file with indentation
