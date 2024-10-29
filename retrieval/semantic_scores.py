@@ -18,8 +18,7 @@ def preprocess(text):
     return " ".join(new_text)
 
 
-task='sentiment'
-MODEL = f"cardiffnlp/twitter-roberta-base-{task}"
+MODEL = "cardiffnlp/twitter-roberta-base-sentiment"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 
