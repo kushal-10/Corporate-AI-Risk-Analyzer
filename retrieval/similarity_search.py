@@ -12,9 +12,7 @@ def generate_docs(loader):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     db = FAISS.from_documents(texts, embeddings)
 
-    search_query = """
-    advancements, risks, or opportunities in AI, ML, cybersecurity, data science, automation, neural networks, robotics, big data, deep learning, or technology innovation.
-    """
+    search_query = """Artificial Intelligence, Machine Learning, Data Science, Neural Networks, Robotics, Big Data, Deep Learning"""
 
     retriever = db.as_retriever()
     docs = retriever.invoke(search_query)
