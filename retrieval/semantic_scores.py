@@ -2,7 +2,9 @@ import json
 from tqdm import tqdm
 
 from transformers import AutoModelForSequenceClassification
+from transformers import TFAutoModelForSequenceClassification
 from transformers import AutoTokenizer
+import numpy as np
 from scipy.special import softmax
 import csv
 import urllib.request
@@ -18,24 +20,8 @@ def preprocess(text):
     return " ".join(new_text)
 
 
-MODEL = "cardiffnlp/twitter-roberta-base-sentiment"
-
-tokenizer = AutoTokenizer.from_pretrained(MODEL)
-
-# download label mapping
-labels=[]
-mapping_link = f"https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/{task}/mapping.txt"
-with urllib.request.urlopen(mapping_link) as f:
-    html = f.read().decode('utf-8').split("\n")
-    csvreader = csv.reader(html, delimiter='\t')
-labels = [row[1] for row in csvreader if len(row) > 1]
-
-# PT
-model = AutoModelForSequenceClassification.from_pretrained(MODEL)
-model.save_pretrained(MODEL)
-
 # Function to compute semantic scores
-def compute_semantic_scores(text):
+def compute_semantic_scores(text, model, tokenizer):
     text = preprocess(text)
     encoded_input = tokenizer(text, return_tensors='pt')
     output = model(**encoded_input)
@@ -57,6 +43,12 @@ if __name__ == "__main__":
     except FileNotFoundError:
         pass  # If the file doesn't exist, start with an empty dictionary
 
+    task='sentiment'
+    MODEL = f"cardiffnlp/twitter-roberta-base-{task}"
+    tokenizer = AutoTokenizer.from_pretrained(MODEL)
+    # PT
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL)
+
     # Process each document and compute semantic scores
     doc_keys = list(docs_dict.keys())
     for key in tqdm(doc_keys, desc="Processing documents for semantic scores"):
@@ -64,7 +56,7 @@ if __name__ == "__main__":
             sem_scores_dict[key] = []
             texts = docs_dict[key]
             for text in texts:
-                scores = compute_semantic_scores(text)
+                scores = compute_semantic_scores(text, model, tokenizer)
                 sem_scores_dict[key].append(scores)
 
     with open('retrieval/semantic_scores.json', 'w') as json_file:
