@@ -23,7 +23,7 @@ def preprocess(text):
 # Function to compute semantic scores
 def compute_semantic_scores(text, model, tokenizer):
     text = preprocess(text)
-    encoded_input = tokenizer(text, return_tensors='pt')
+    encoded_input = tokenizer(text, return_tensors='pt', truncation=True, max_length=512)
     output = model(**encoded_input)
     scores = output[0][0].detach().numpy()
     scores = softmax(scores)
