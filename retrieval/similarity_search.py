@@ -5,6 +5,7 @@ from langchain.document_loaders import TextLoader
 import os
 import json  # Import the json module
 from tqdm import tqdm
+import torch  # Import torch to check for GPU availability
 
 def generate_docs(loader):
     documents = loader.load()
@@ -12,7 +13,8 @@ def generate_docs(loader):
     texts = text_splitter.split_documents(documents)
     
     # Use open-source embeddings from Hugging Face's sentence-transformers
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    device = "cuda" if torch.cuda.is_available() else "cpu"  # Check if GPU is available
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2", device=device)  # Set device
     db = FAISS.from_documents(texts, embeddings)
 
     search_query = """Artificial Intelligence, Machine Learning, Data Science, Neural Networks, Robotics, Big Data, Deep Learning"""
