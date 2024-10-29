@@ -57,7 +57,7 @@ if __name__ == "__main__":
             texts = docs_dict[key]
             for text in texts:
                 scores = compute_semantic_scores(text, model, tokenizer)
-                sem_scores_dict[key].append(scores)
+                sem_scores_dict[key].append(scores.tolist())  # Convert ndarray to list
 
     with open('retrieval/semantic_scores.json', 'w') as json_file:
         json.dump(sem_scores_dict, json_file, indent=4)
