@@ -16,9 +16,7 @@ def generate_docs(loader):
     advancements, risks, or opportunities in AI, ML, cybersecurity, data science, automation, neural networks, robotics, big data, deep learning, or technology innovation.
     """
 
-    retriever = db.as_retriever(
-        search_type="similarity_score_threshold", search_kwargs={"k": 10}
-    )
+    retriever = db.as_retriever()
     docs = retriever.invoke(search_query)
 
     return docs
