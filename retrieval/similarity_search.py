@@ -25,13 +25,6 @@ def generate_docs(loader):
 
     return docs
 
-def process_file(file_path):
-    loader = TextLoader(file_path)
-    docs = generate_docs(loader)
-    if len(docs) == 0:
-        print(f"No docs found for {file_path}")
-    return file_path, [doc.page_content for doc in docs]  # Return the file path and document contents
-
 if __name__ == "__main__":
     base_dir = "annual_txts"
     country_dirs = os.listdir(base_dir)
@@ -51,10 +44,14 @@ if __name__ == "__main__":
                 
                 # Check if the key already exists
                 if file_path not in docs_dict:
-                    # Directly call process_file instead of using ThreadPoolExecutor
-                    file_path, doc_contents = process_file(file_path)  # Process the file
-                    docs_dict[file_path] = doc_contents  # Store the documents in the dictionary
-
-    # Save the updated dictionary to a JSON file immediately after retrieval
-    with open('retrieval/retrieved_docs.json', 'w') as json_file:
-        json.dump(docs_dict, json_file, indent=4)  # Write the updated dictionary to a JSON file with indentation
+                    loader = TextLoader(file_path)
+                    docs = generate_docs(loader)
+                    if len(docs) == 0:
+                        print(f"No docs found for {file_path}")
+            
+                    # Store the documents in the dictionary with the path as the key
+                    docs_dict[file_path] = [doc.page_content for doc in docs]
+                    
+                    # Save the updated dictionary to a JSON file immediately after retrieval
+                    with open('retrieval/retrieved_docs.json', 'w') as json_file:
+                        json.dump(docs_dict, json_file, indent=4)  # Write the updated dictionary to a JSON file with indentation
