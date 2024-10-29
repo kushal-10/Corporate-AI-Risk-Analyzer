@@ -4,6 +4,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
 import os
 import json  # Import the json module
+from tqdm import tqdm
 
 def generate_docs(loader):
     documents = loader.load()
@@ -24,20 +25,30 @@ def generate_docs(loader):
 if __name__ == "__main__":
     base_dir = "annual_txts"
     country_dirs = os.listdir(base_dir)
-    docs_dict = {}  # Initialize a dictionary to store paths and document contents
+    
+    # Load existing documents from JSON file if it exists
+    docs_dict = {}
+    try:
+        with open('retrieval/retrieved_docs.json', 'r') as json_file:
+            docs_dict = json.load(json_file)  # Load existing data
+    except FileNotFoundError:
+        pass  # If the file doesn't exist, start with an empty dictionary
 
     for country_dir in country_dirs:
-        for company_dir in os.listdir(os.path.join(base_dir, country_dir)):
+        for company_dir in tqdm(os.listdir(os.path.join(base_dir, country_dir)), desc=f"Processing {country_dir}"):
             for year_dir in os.listdir(os.path.join(base_dir, country_dir, company_dir)):
-                loader = TextLoader(os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt"))
-                docs = generate_docs(loader)
+                file_path = os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")
                 
-                # Store the documents in the dictionary with the path as the key
-                docs_dict[os.path.join(base_dir, country_dir, company_dir, year_dir, "results.txt")] = [doc.page_content for doc in docs]
-                break
-            break
-        break
-    # Save the dictionary to a JSON file
-    with open('retrieval/retrieved_docs.json', 'w') as json_file:
-        json.dump(docs_dict, json_file, indent=4)  # Write the dictionary to a JSON file with indentation
-  
+                # Check if the key already exists
+                if file_path not in docs_dict:
+                    loader = TextLoader(file_path)
+                    docs = generate_docs(loader)
+                    if len(docs) == 0:
+                        print(f"No docs found for {file_path}")
+            
+                    # Store the documents in the dictionary with the path as the key
+                    docs_dict[file_path] = [doc.page_content for doc in docs]
+                    
+                    # Save the updated dictionary to a JSON file immediately after retrieval
+                    with open('retrieval/retrieved_docs.json', 'w') as json_file:
+                        json.dump(docs_dict, json_file, indent=4)  # Write the updated dictionary to a JSON file with indentation
