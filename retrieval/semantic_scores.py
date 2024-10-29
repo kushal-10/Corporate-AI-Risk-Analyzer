@@ -37,12 +37,6 @@ if __name__ == "__main__":
 
     # Load existing semantic scores if they exist
     sem_scores_dict = {}
-    try:
-        with open('retrieval/semantic_scores.json', 'r') as json_file:
-            sem_scores_dict = json.load(json_file)  # Load existing semantic scores
-    except FileNotFoundError:
-        pass  # If the file doesn't exist, start with an empty dictionary
-
     task='sentiment'
     MODEL = f"cardiffnlp/twitter-roberta-base-{task}"
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
