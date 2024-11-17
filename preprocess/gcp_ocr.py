@@ -12,6 +12,16 @@ from tqdm import tqdm
 def create_processor(
     project_id: str, location: str, processor_display_name: str
 ) -> documentai.Processor:
+    """Creates a Document AI processor.
+
+    Args:
+        project_id (str): The ID of the Google Cloud project.
+        location (str): The location of the processor.
+        processor_display_name (str): The display name for the processor.
+
+    Returns:
+        documentai.Processor: The created processor.
+    """
     client = documentai.DocumentProcessorServiceClient(client_options=client_options)
 
     # The full resource name of the location
@@ -27,6 +37,15 @@ def create_processor(
     )
 
 def process_document(processor_name: str, file_path: str) -> documentai.Document:
+    """Processes a document using the specified processor.
+
+    Args:
+        processor_name (str): The name of the processor to use.
+        file_path (str): The path to the document file.
+
+    Returns:
+        documentai.Document: The processed document.
+    """
     client = documentai.DocumentProcessorServiceClient(client_options=client_options)
 
     # Read the file into memory
@@ -46,10 +65,14 @@ def process_document(processor_name: str, file_path: str) -> documentai.Document
     return result.document
 
 def layout_to_text(layout: documentai.Document.Page.Layout, text: str) -> str:
-    """
-    Document AI identifies text in different parts of the document by their
-    offsets in the entirety of the document"s text. This function converts
-    offsets to a string.
+    """Converts layout offsets to a string.
+
+    Args:
+        layout (documentai.Document.Page.Layout): The layout of the document page.
+        text (str): The full text of the document.
+
+    Returns:
+        str: The extracted text from the layout.
     """
     # If a text segment spans several lines, it will
     # be stored in different text segments.
@@ -59,7 +82,17 @@ def layout_to_text(layout: documentai.Document.Page.Layout, text: str) -> str:
     )
 
 def pdf_processor(processor_name: str, extracted_data, docs_path: str) -> list[dict]:
-# Loop through each PDF file in the "docai" directory.
+    """Processes PDF documents in the specified directory.
+
+    Args:
+        processor_name (str): The name of the processor to use.
+        extracted_data (list[dict]): The list to append extracted data to.
+        docs_path (str): The path to the directory containing PDF documents.
+
+    Returns:
+        list[dict]: The updated list of extracted data.
+    """
+    # Loop through each PDF file in the "docai" directory.
     for path in tqdm(glob.glob(f"{docs_path}/*.pdf")):
         # Extract the file name and type from the path.
         file_name, file_type = os.path.splitext(path)
@@ -126,7 +159,7 @@ if __name__ == "__main__":
                 )
                 os.makedirs(sub_dir)
                 save_path = os.path.join(sub_dir, "results.csv")
-                pdf_data.to_csv(save_path, index=False)
+                pdf_data.to_csv(save_path, index=False)s
 
     def process_company_wrapper(company_country_tuple):
         company, country = company_country_tuple
