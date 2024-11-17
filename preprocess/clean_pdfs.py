@@ -104,9 +104,8 @@ def check_years():
         
 
 if __name__ == '__main__':
-    # get_company_metadata()
+    get_company_metadata()
     # check_years()
     split_pdfs() 
-    # pass    
 
 #note - Microsoft is already in docx

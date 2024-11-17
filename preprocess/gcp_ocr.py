@@ -159,7 +159,7 @@ if __name__ == "__main__":
                 )
                 os.makedirs(sub_dir)
                 save_path = os.path.join(sub_dir, "results.csv")
-                pdf_data.to_csv(save_path, index=False)s
+                pdf_data.to_csv(save_path, index=False)
 
     def process_company_wrapper(company_country_tuple):
         company, country = company_country_tuple
