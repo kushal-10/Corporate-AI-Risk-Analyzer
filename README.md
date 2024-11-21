@@ -32,6 +32,11 @@ python preprocess/translate.py
 
 This script combines the extracted chunks from OCR and translates the text from Chinese/Hindi/German to English if required. All the translated text is saved in `annual_txts` - `country/company/year/results.txt`. Also available - [annualtxts](https://huggingface.co/Koshti10/annualtxts/tree/main)
 
+```bash
+python preprocess/check_txts.py
+```
+
+This script checks for missing text files in `annual_txts`.
 
 ## Retrieval
 
