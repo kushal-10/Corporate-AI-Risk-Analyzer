@@ -30,7 +30,7 @@ def extract_semantic_passages_with_context(file_path, query_embedding=query_embe
 
 
 def extract_passages(output_file: str):
-    json_metadata = []
+    json_metadata = {}
 
     # Check if the output file exists and load existing data if it does
     if os.path.exists(output_file) and os.path.getsize(output_file) > 0:
@@ -46,17 +46,14 @@ def extract_passages(output_file: str):
                 json_key = os.path.join(country, firm, year)
                 txt_path = os.path.join(directory_path, country, firm, year, 'results.txt')
                 # Check if the key already exists
-                if json_key not in [list(obj.keys())[0] for obj in json_metadata]:
+                if json_key not in [list(json_metadata.keys())]:
                     extracted_passages = extract_semantic_passages_with_context(txt_path)
-                    metadata_obj = {
-                        json_key: extracted_passages
-                    }
-                    print(metadata_obj)
-                    json_metadata.append(metadata_obj)
+                    json_metadata[json_key] = extracted_passages
+                    print(json_metadata[json_key] )
 
-                # Save the updated metadata to the output file after processing each year
-                with open(output_file, 'w') as f:
-                    json.dump(json_metadata, f, indent=4)
+                    # Save the updated metadata to the output file after processing each year
+                    with open(output_file, 'w') as f:
+                        json.dump(json_metadata, f, indent=4)
 
 
 if __name__ == '__main__':
