@@ -31,7 +31,7 @@ def extract_semantic_passages_with_context(file_path, query_embedding=query_embe
 
 def extract_passages(output_file: str):
     json_metadata = []
-    i = 0
+
     countries = os.listdir(os.path.join(directory_path))
     for country in countries:
         firms = os.listdir(os.path.join(directory_path, country))
@@ -46,10 +46,7 @@ def extract_passages(output_file: str):
                 }
                 print(metadata_obj)
                 json_metadata.append(metadata_obj)
-                if i == 2:
-                    i = 0
-                    break
-                i += 1
+
 
     with open(output_file, 'w') as f:
         json.dump(json_metadata, output_file, indent=4)
