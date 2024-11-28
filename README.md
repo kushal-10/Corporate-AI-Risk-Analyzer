@@ -39,5 +39,12 @@ python preprocess/check_txts.py
 This script checks for missing text files in `annual_txts`.
 
 ## Retrieval
+Run the following script to extract all passages that are relevant to the prompt - `Artificial Intelligence and Related Technologies`. Uses `all-MiniLM-L6-v2` for retrieval.
+
+```bash
+python retrieval/minilm_retrieval.py
+```
+
+Adjust the above prompt as required.
 
 

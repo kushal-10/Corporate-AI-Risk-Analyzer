@@ -1,3 +1,7 @@
+"""
+Use FAISS documents for retrieval
+"""
+
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
