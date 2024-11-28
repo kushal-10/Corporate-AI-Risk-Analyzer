@@ -30,6 +30,7 @@ def compute_semantic_scores(text, model, tokenizer):
 
     return scores
 
+
 if __name__ == "__main__":
     # Load existing documents from JSON file
     with open('retrieval/retrieved_docs.json', 'r') as json_file:
