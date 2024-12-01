@@ -7,8 +7,9 @@ from typing import List, Tuple
 # Define the directory path at the top of the file
 directory_path = "annual_txts"
 
-def split_into_chunks(text: str, chunk_size: int = 250, overlap: int = 25) -> List[str]:
-    """Split text into chunks of specified size with overlap."""
+def split_into_chunks(text: str, chunk_size: int = 200, overlap: int = 20) -> List[str]:
+    """Split text into chunks of specified size with overlap.
+    Using smaller chunk size to ensure we stay within BERT's 512 token limit"""
     words = text.split()
     chunks = []
     start = 0
