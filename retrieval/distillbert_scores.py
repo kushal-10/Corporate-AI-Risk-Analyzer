@@ -16,6 +16,9 @@ def classify(input_str: str, model=model, tokenizer=tokenizer):
     return label
 
 
+# def get_labels()
+
+
 if __name__=='__main__':
 
     test_str = "Artificial Intelligence"
