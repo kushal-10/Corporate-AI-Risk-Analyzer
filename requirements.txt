@@ -12,3 +12,5 @@ langchain-openai
 sentence-transformers==3.2.1
 rank-bm25==0.2.2
 openai==1.52.2
+matplotlib==3.9.3
+seaborn==0.13.2

@@ -1,4 +1,0 @@
-"""
-OCR Using AWS Textract
-"""
-
