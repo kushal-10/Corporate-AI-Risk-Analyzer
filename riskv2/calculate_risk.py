@@ -62,7 +62,8 @@ def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
 
     for k in keys:
         results = json_data[k]
-        risk = RISK.naive_risk(results)
+        # risk = RISK.naive_risk(results)
+        risk = RISK.np_risk(results)
         if risk:
             risks.append(risk)
             splits = k.split('/')
