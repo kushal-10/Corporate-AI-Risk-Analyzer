@@ -1,9 +1,7 @@
 import os
 import json
 import pandas as pd
-
-global COUNT
-COUNT = 0
+import riskv2.risks as RISK
 
 with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
     label_data = json.load(f)
@@ -52,18 +50,6 @@ def get_predictions(results):
     return predictions
 
 
-def get_risk(predictions):
-    global COUNT
-    if len(predictions) == 0:
-        COUNT += 1
-        return None
-
-    cz = predictions.count(0)
-    risk = cz/len(predictions)
-    
-    return risk
-
-
 def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
     keys = list(json_data.keys())
 
@@ -76,8 +62,7 @@ def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
 
     for k in keys:
         results = json_data[k]
-        predictions = get_predictions(results)
-        risk = get_risk(predictions)
+        risk = RISK.naive_risk(results)
         if risk:
             risks.append(risk)
             splits = k.split('/')
@@ -117,6 +102,4 @@ if __name__ == '__main__':
 
     generate_dataframe(label_data, os.path.join('riskv2', 'bert.csv'))
     generate_dataframe(gpt_data, os.path.join('riskv2', 'gpt.csv'))
-    print(f"No Predictions found for {COUNT} documents, It is likely that these documents do not contain any passages that closely relate to the keywords")
-
 
