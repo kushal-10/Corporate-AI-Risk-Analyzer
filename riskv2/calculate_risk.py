@@ -1,6 +1,7 @@
 import os
 import json
 import pandas as pd
+from tqdm import tqdm
 import riskv2.risks as RISK
 
 with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
@@ -32,23 +33,6 @@ def get_metadata(data_path: str):
 
     return company_name, sector, revenue
 
-def get_predictions(results):
-    predictions = []
-    for r in results:
-        prediction = r[0]
-        # Failsafe for GPT (check last comments, end of script)
-        if "NEGATIVE" in prediction and "POSITIVE" not in prediction:
-            prediction = "NEGATIVE"
-        elif "POSITIVE" in prediction and "NEGATIVE" not in prediction:
-            prediction = "POSITIVE"
-
-        if prediction == "NEGATIVE":
-            predictions.append(0)
-        elif prediction == "POSITIVE":
-            predictions.append(1)
-    
-    return predictions
-
 
 def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
     keys = list(json_data.keys())
@@ -60,7 +44,7 @@ def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
     years = []
     risks = []
 
-    for k in keys:
+    for k in tqdm(keys):
         results = json_data[k]
         # risk = RISK.naive_risk(results)
         risk = RISK.np_risk(results)

@@ -9,11 +9,11 @@ from sentence_transformers import SentenceTransformer, util
 model = SentenceTransformer("all-roberta-large-v1")
 
 NEGATIVE_PASSAGE = """
-We are cautiously exploring the use of AI due to potential ethical concerns, as the implementation of AI poses significant regulatory and compliance challenges, potentially disrupting traditional processes, leading to operational risks, increasing exposure to cybersecurity vulnerabilities, involving high upfront costs and uncertain return on investment, raising concerns about job displacement and societal backlash, amplifying bias in AI algorithms, causing reputational risks if errors occur, and creating challenges for staying competitive due to the lack of clear legal frameworks around AI usage.
+Rapid advancements in AI introduce significant competition across industries and geographies, exposing us to increased risks from cybersecurity vulnerabilities, regulatory uncertainty, and operational disruptions. Intense competition, fueled by new technologies like AI and machine learning, pressures pricing strategies, product success, and market share, requiring higher investment and reducing profits. Expansion into AI-related products and services exposes us to limited expertise, potential quality issues, and challenges in achieving expected benefits, risking financial losses. Unforeseen geopolitical conditions and sustainability efforts may exacerbate these risks, amplifying the adverse effects on our operations and profitability in a rapidly evolving AI landscape.
 """
 
 POSITIVE_PASSAGE = """
-AI represents a transformative opportunity to enhance operational efficiency by driving innovation across all business units, unlocking new business opportunities, reducing errors, improving customer satisfaction, aligning with our long-term growth strategy, enabling enhanced decision-making capabilities, helping us stay ahead in a competitive market, supporting our commitment to sustainability and societal impact, and ensuring ethical development to align with our values and goals, demonstrating that the potential of AI far outweighs the risks when implemented responsibly.
+Through initiatives like introducing computer science classes in underserved schools, awarding scholarships to students from low-income backgrounds, and providing guaranteed internships, we ensure AI's positive societal impact. By investing efficiently in technology like AWS, wireless connectivity, and practical applications of AI, we enhance operational efficiency, customer experience, and innovation across industries. With programs like Career Choice and upskilling efforts in machine learning and cloud computing, we empower employees to evolve with technology. By aligning compensation strategies with shareholders' interests, leveraging innovative software and electronic devices, and maintaining a focus on sustainability, we demonstrate how AI drives growth, opportunity, and societal benefit while aligning with long-term goals.
 """
 
 neg_emb = model.encode(NEGATIVE_PASSAGE, convert_to_tensor=True)
@@ -46,21 +46,37 @@ def naive_risk(results):
 
 def np_risk(results):
 
+    sub_risks = []
     for r in results:
         passage = r[1]
+        prediction = r[0]
+        C = 0
+        # Failsafe for GPT (check last comments, end of script)
+        if "NEGATIVE" in prediction and "POSITIVE" not in prediction:
+            prediction = "NEGATIVE"
+        elif "POSITIVE" in prediction and "NEGATIVE" not in prediction:
+            prediction = "POSITIVE"
+
+        if prediction == "NEGATIVE":
+            C = 1
+        elif prediction == "POSITIVE":
+            C = 0
+        else:
+            continue
+
         passage_emb = model.encode(passage, convert_to_tensor=True)
     
         p_similarity = util.pytorch_cos_sim(passage_emb, pos_emb)
         p_sim = p_similarity.item()
-
         n_similarity = util.pytorch_cos_sim(passage_emb, neg_emb)
         n_sim = n_similarity.item()
 
-        print("*"*100)
-        print(r[0])
-        print("*"*100)
+        subrisk = (C*(n_sim/p_sim)) - ((1-C)*(p_sim/n_sim))
 
-        print(passage, p_sim, n_sim)
-        print("*"*100)
+        sub_risks.append(subrisk)
 
-    return 1
+    if not sub_risks:
+        return None
+    
+    else:
+        return sum(sub_risks)/len(sub_risks)
