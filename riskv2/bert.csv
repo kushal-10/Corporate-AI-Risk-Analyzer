@@ -1,418 +1,534 @@
 country,firm,sector,revenue,year,risk
-China,Agricultural Bank of China,Financial Service,221.35,2014,0.028169014084507043
-China,Agricultural Bank of China,Financial Service,221.35,2015,0.08571428571428572
-China,Agricultural Bank of China,Financial Service,221.35,2016,0.14285714285714285
-China,Agricultural Bank of China,Financial Service,221.35,2017,0.1111111111111111
-China,Agricultural Bank of China,Financial Service,221.35,2020,0.016666666666666666
-China,Agricultural Bank of China,Financial Service,221.35,2021,0.2
-China,Agricultural Bank of China,Financial Service,221.35,2022,0.0410958904109589
-China,Agricultural Bank of China,Financial Service,221.35,2023,0.04
-China,BYD,Industries,98.15,2014,0.5
-China,BYD,Industries,98.15,2015,0.36363636363636365
-China,BYD,Industries,98.15,2016,0.3333333333333333
-China,BYD,Industries,98.15,2017,0.5454545454545454
-China,BYD,Industries,98.15,2018,0.4
-China,BYD,Industries,98.15,2019,0.5384615384615384
-China,BYD,Industries,98.15,2020,0.5333333333333333
-China,BYD,Industries,98.15,2021,0.25
-China,BYD,Industries,98.15,2022,0.5925925925925926
-China,BYD,Industries,98.15,2023,0.45454545454545453
-China,Bank of China,Financial Service,175.5,2023,0.03125
-China,CM Bank,Financial Service,108.68,2015,0.06451612903225806
-China,CM Bank,Financial Service,108.68,2017,0.11904761904761904
-China,CM Bank,Financial Service,108.68,2018,0.06666666666666667
-China,CM Bank,Financial Service,108.68,2019,0.05
-China,CM Bank,Financial Service,108.68,2020,0.09375
-China,CM Bank,Financial Service,108.68,2021,0.3
-China,CM Bank,Financial Service,108.68,2023,0.041666666666666664
-China,China Construction Bank,Financial Service,178.16,2015,0.019230769230769232
-China,China Construction Bank,Financial Service,178.16,2018,0.07142857142857142
-China,China Construction Bank,Financial Service,178.16,2021,0.125
-China,China Construction Bank,Financial Service,178.16,2023,0.07894736842105263
-China,China Iife Insurance,Financial Service,111.24,2014,0.19047619047619047
-China,China Iife Insurance,Financial Service,111.24,2017,0.14285714285714285
-China,China Iife Insurance,Financial Service,111.24,2019,0.13333333333333333
-China,China Iife Insurance,Financial Service,111.24,2020,0.09523809523809523
-China,China Iife Insurance,Financial Service,111.24,2022,0.25
-China,China Mobile,Communication Services,206.74,2014,0.11764705882352941
-China,China Mobile,Communication Services,206.74,2019,0.09375
-China,China Mobile,Communication Services,206.74,2020,0.1346153846153846
-China,China Mobile,Communication Services,206.74,2021,0.1
-China,China Shenhua Energy,Energy,103.81,2021,0.6666666666666666
-China,China Yangtze Power,Energy,100.53,2020,0.75
-China,China Yangtze Power,Energy,100.53,2021,0.8
-China,China Yangtze Power,Energy,100.53,2022,0.8888888888888888
-China,China Yangtze Power,Energy,100.53,2023,1.0
-China,ICBC,Financial Service,267.08,2014,0.043478260869565216
-China,ICBC,Financial Service,267.08,2015,0.03571428571428571
-China,ICBC,Financial Service,267.08,2017,0.016129032258064516
-China,ICBC,Financial Service,267.08,2018,0.03571428571428571
-China,ICBC,Financial Service,267.08,2019,0.013333333333333334
-China,ICBC,Financial Service,267.08,2020,0.0379746835443038
-China,ICBC,Financial Service,267.08,2022,0.038834951456310676
-China,ICBC,Financial Service,267.08,2023,0.05
-China,Meituan,Information Technology,93.17,2018,0.4
-China,Meituan,Information Technology,93.17,2019,0.32142857142857145
-China,Meituan,Information Technology,93.17,2020,0.3888888888888889
-China,Meituan,Information Technology,93.17,2021,0.42857142857142855
-China,Meituan,Information Technology,93.17,2022,0.3684210526315789
-China,Meituan,Information Technology,93.17,2023,0.4583333333333333
-China,PetroChina,Energy,218.98,2016,1.0
-China,Pinduoduo,Information Technology,176.94,2018,0.45454545454545453
-China,Pinduoduo,Information Technology,176.94,2019,0.375
-China,Pinduoduo,Information Technology,176.94,2020,0.6666666666666666
-China,Pinduoduo,Information Technology,176.94,2021,1.0
-China,Pinduoduo,Information Technology,176.94,2022,0.6785714285714286
-China,Pinduoduo,Information Technology,176.94,2023,0.7142857142857143
-China,PingAn Insurance,Financial Service,100.07,2014,0.045454545454545456
-China,PingAn Insurance,Financial Service,100.07,2015,0.11764705882352941
-China,PingAn Insurance,Financial Service,100.07,2016,0.037037037037037035
-China,PingAn Insurance,Financial Service,100.07,2017,0.061224489795918366
-China,PingAn Insurance,Financial Service,100.07,2019,0.10606060606060606
-China,PingAn Insurance,Financial Service,100.07,2020,0.06097560975609756
-China,PingAn Insurance,Financial Service,100.07,2022,0.06060606060606061
-China,Tencent,Information Technology,428.32,2014,0.3333333333333333
-China,Tencent,Information Technology,428.32,2015,0.38461538461538464
-China,Tencent,Information Technology,428.32,2016,0.1111111111111111
-China,Tencent,Information Technology,428.32,2017,0.29411764705882354
-China,Tencent,Information Technology,428.32,2018,0.18181818181818182
-China,Tencent,Information Technology,428.32,2019,0.2631578947368421
-China,Tencent,Information Technology,428.32,2020,0.2962962962962963
-China,Tencent,Information Technology,428.32,2021,0.5
-China,Tencent,Information Technology,428.32,2022,0.32
-China,Tencent,Information Technology,428.32,2023,0.3333333333333333
-Germany,Adidas,Consumer Discretionary,244.57,2022,0.125
-Germany,Adidas,Consumer Discretionary,244.57,2023,0.25
-Germany,Allianz,Financial Service,106.68,2014,0.3684210526315789
-Germany,Allianz,Financial Service,106.68,2015,0.2727272727272727
-Germany,Allianz,Financial Service,106.68,2017,0.16666666666666666
-Germany,Allianz,Financial Service,106.68,2018,1.0
-Germany,Allianz,Financial Service,106.68,2019,0.16666666666666666
-Germany,Allianz,Financial Service,106.68,2020,0.4117647058823529
-Germany,Allianz,Financial Service,106.68,2023,0.36363636363636365
-Germany,BASF,Industries,42.93,2014,0.17647058823529413
-Germany,BASF,Industries,42.93,2015,0.25
-Germany,BASF,Industries,42.93,2016,0.16666666666666666
-Germany,BASF,Industries,42.93,2017,0.09090909090909091
-Germany,BASF,Industries,42.93,2018,0.125
-Germany,BASF,Industries,42.93,2019,0.3076923076923077
-Germany,BASF,Industries,42.93,2020,0.10526315789473684
-Germany,BASF,Industries,42.93,2021,0.3333333333333333
-Germany,BASF,Industries,42.93,2022,0.1111111111111111
-Germany,BASF,Industries,42.93,2023,0.1
-Germany,BMW,Industries,55.03,2014,0.2
-Germany,BMW,Industries,55.03,2015,0.05
-Germany,BMW,Industries,55.03,2017,0.21739130434782608
-Germany,BMW,Industries,55.03,2018,0.07692307692307693
-Germany,BMW,Industries,55.03,2019,0.22580645161290322
-Germany,BMW,Industries,55.03,2020,0.024390243902439025
-Germany,BMW,Industries,55.03,2021,0.2
-Germany,BMW,Industries,55.03,2022,0.09523809523809523
-Germany,BMW,Industries,55.03,2023,0.18181818181818182
-Germany,Beiersdorf,Consumer Staples,32.13,2014,0.0625
-Germany,Beiersdorf,Consumer Staples,32.13,2016,0.07692307692307693
-Germany,Beiersdorf,Consumer Staples,32.13,2022,0.04
-Germany,Beiersdorf,Consumer Staples,32.13,2023,0.09090909090909091
-Germany,DHL Group,Industries,49.82,2014,0.18181818181818182
-Germany,DHL Group,Industries,49.82,2015,0.3333333333333333
-Germany,DHL Group,Industries,49.82,2017,0.2857142857142857
-Germany,DHL Group,Industries,49.82,2019,0.3333333333333333
-Germany,DHL Group,Industries,49.82,2020,0.3333333333333333
-Germany,DHL Group,Industries,49.82,2022,0.16666666666666666
-Germany,DHL Group,Industries,49.82,2023,0.16666666666666666
-Germany,Deutsche Börse,Financial Service,41.91,2015,0.3333333333333333
-Germany,Deutsche Börse,Financial Service,41.91,2017,0.17647058823529413
-Germany,Deutsche Börse,Financial Service,41.91,2019,0.2777777777777778
-Germany,Deutsche Börse,Financial Service,41.91,2020,0.2608695652173913
-Germany,Deutsche Börse,Financial Service,41.91,2023,0.1111111111111111
-Germany,Hannover Rück,Financial Service,33.67,2014,0.25
-Germany,Hannover Rück,Financial Service,33.67,2015,0.5714285714285714
-Germany,Hannover Rück,Financial Service,33.67,2017,0.42857142857142855
-Germany,Hannover Rück,Financial Service,33.67,2019,0.2857142857142857
-Germany,Hannover Rück,Financial Service,33.67,2020,0.375
-Germany,Hannover Rück,Financial Service,33.67,2022,0.2222222222222222
-Germany,Hannover Rück,Financial Service,33.67,2023,0.5714285714285714
-Germany,Henkel,Consumer Staples,35.64,2017,0.125
-Germany,Henkel,Consumer Staples,35.64,2020,0.05555555555555555
-Germany,Henkel,Consumer Staples,35.64,2023,0.3333333333333333
-Germany,Infineon,Industries,41.66,2014,0.2358490566037736
-Germany,Infineon,Industries,41.66,2015,0.25
-Germany,Infineon,Industries,41.66,2016,0.18181818181818182
-Germany,Infineon,Industries,41.66,2017,0.1864406779661017
-Germany,Infineon,Industries,41.66,2018,0.1951219512195122
-Germany,Infineon,Industries,41.66,2019,0.2875
-Germany,Infineon,Industries,41.66,2020,0.22727272727272727
-Germany,Infineon,Industries,41.66,2021,0.16
-Germany,Infineon,Industries,41.66,2022,0.2542372881355932
-Germany,Infineon,Industries,41.66,2023,0.2631578947368421
-Germany,Mercedes-Benz,Industries,68.14,2014,0.14634146341463414
-Germany,Mercedes-Benz,Industries,68.14,2014,0.11904761904761904
-Germany,Mercedes-Benz,Industries,68.14,2015,0.07692307692307693
-Germany,Mercedes-Benz,Industries,68.14,2015,0.13333333333333333
-Germany,Mercedes-Benz,Industries,68.14,2017,0.13333333333333333
-Germany,Mercedes-Benz,Industries,68.14,2017,0.13333333333333333
-Germany,Mercedes-Benz,Industries,68.14,2018,0.1
-Germany,Mercedes-Benz,Industries,68.14,2019,0.24242424242424243
-Germany,Mercedes-Benz,Industries,68.14,2019,0.17142857142857143
-Germany,Mercedes-Benz,Industries,68.14,2020,0.14285714285714285
-Germany,Mercedes-Benz,Industries,68.14,2020,0.15
-Germany,Mercedes-Benz,Industries,68.14,2022,0.16279069767441862
-Germany,Mercedes-Benz,Industries,68.14,2022,0.21428571428571427
-Germany,Mercedes-Benz,Industries,68.14,2023,0.2727272727272727
-Germany,Mercedes-Benz,Industries,68.14,2023,0.3
-Germany,Merck,Health Care,78.9,2014,0.125
-Germany,Merck,Health Care,78.9,2015,0.25
-Germany,Merck,Health Care,78.9,2017,0.19230769230769232
-Germany,Merck,Health Care,78.9,2019,0.11764705882352941
-Germany,Merck,Health Care,78.9,2020,0.11627906976744186
-Germany,Merck,Health Care,78.9,2023,0.23809523809523808
-Germany,Munich RE,Financial Service,63.39,2014,0.08333333333333333
-Germany,Munich RE,Financial Service,63.39,2015,0.045454545454545456
-Germany,Munich RE,Financial Service,63.39,2016,0.09090909090909091
-Germany,Munich RE,Financial Service,63.39,2017,0.09090909090909091
-Germany,Munich RE,Financial Service,63.39,2018,0.16666666666666666
-Germany,Munich RE,Financial Service,63.39,2019,0.12903225806451613
-Germany,Munich RE,Financial Service,63.39,2020,0.15625
-Germany,Munich RE,Financial Service,63.39,2021,0.1111111111111111
-Germany,Munich RE,Financial Service,63.39,2022,0.13636363636363635
-Germany,Munich RE,Financial Service,63.39,2023,0.10526315789473684
-Germany,ON,Energy,38.46,2014,0.4444444444444444
-Germany,ON,Energy,38.46,2015,0.5
-Germany,ON,Energy,38.46,2016,1.0
-Germany,ON,Energy,38.46,2017,0.2
-Germany,ON,Energy,38.46,2018,0.5
-Germany,ON,Energy,38.46,2020,0.3333333333333333
-Germany,ON,Energy,38.46,2021,1.0
-Germany,ON,Energy,38.46,2022,0.23076923076923078
-Germany,ON,Energy,38.46,2023,0.25
-Germany,Porsche,Industries,67.4,2014,0.20930232558139536
-Germany,Porsche,Industries,67.4,2015,0.38095238095238093
-Germany,Porsche,Industries,67.4,2016,0.2
-Germany,Porsche,Industries,67.4,2017,0.36
-Germany,Porsche,Industries,67.4,2018,0.25
-Germany,Porsche,Industries,67.4,2019,0.3548387096774194
-Germany,Porsche,Industries,67.4,2020,0.35
-Germany,Porsche,Industries,67.4,2021,0.5555555555555556
-Germany,Porsche,Industries,67.4,2022,0.2909090909090909
-Germany,Porsche,Industries,67.4,2023,0.30434782608695654
-Germany,SAP,Information Technology,240.94,2014,0.2222222222222222
-Germany,SAP,Information Technology,240.94,2015,0.25735294117647056
-Germany,SAP,Information Technology,240.94,2016,0.27450980392156865
-Germany,SAP,Information Technology,240.94,2017,0.22857142857142856
-Germany,SAP,Information Technology,240.94,2018,0.18556701030927836
-Germany,SAP,Information Technology,240.94,2019,0.22169811320754718
-Germany,SAP,Information Technology,240.94,2020,0.22821576763485477
-Germany,SAP,Information Technology,240.94,2021,0.2777777777777778
-Germany,SAP,Information Technology,240.94,2022,0.2491103202846975
-Germany,SAP,Information Technology,240.94,2023,0.21367521367521367
-Germany,Siemens,Industries,135.42,2014,0.4807692307692308
-Germany,Siemens,Industries,135.42,2015,0.46875
-Germany,Siemens,Industries,135.42,2016,0.38461538461538464
-Germany,Siemens,Industries,135.42,2017,0.47058823529411764
-Germany,Siemens,Industries,135.42,2018,0.3888888888888889
-Germany,Siemens,Industries,135.42,2019,0.3953488372093023
-Germany,Siemens,Industries,135.42,2020,0.5263157894736842
-Germany,Siemens,Industries,135.42,2021,0.3333333333333333
-Germany,Siemens,Industries,135.42,2022,0.5079365079365079
-Germany,Siemens,Industries,135.42,2023,0.39285714285714285
-Germany,Siemens Healthineers,Health Care,58.91,2014,0.5833333333333334
-Germany,Siemens Healthineers,Health Care,58.91,2016,0.38461538461538464
-Germany,Siemens Healthineers,Health Care,58.91,2018,0.3333333333333333
-Germany,Siemens Healthineers,Health Care,58.91,2019,1.0
-Germany,Siemens Healthineers,Health Care,58.91,2020,0.5
-Germany,Siemens Healthineers,Health Care,58.91,2021,0.5384615384615384
-Germany,Siemens Healthineers,Health Care,58.91,2022,0.5483870967741935
-Germany,Siemens Healthineers,Health Care,58.91,2023,0.46875
-India,Axis Bank,Financial Service,42.72,2014,0.04
-India,Axis Bank,Financial Service,42.72,2017,0.06060606060606061
-India,Axis Bank,Financial Service,42.72,2019,0.07692307692307693
-India,Axis Bank,Financial Service,42.72,2022,0.017857142857142856
-India,Bajaj Finance,Financial Service,53.94,2014,0.1111111111111111
-India,Bajaj Finance,Financial Service,53.94,2020,0.1111111111111111
-India,Bharti Airtel,Communication Services,107.39,2014,0.09615384615384616
-India,Bharti Airtel,Communication Services,107.39,2015,0.2222222222222222
-India,Bharti Airtel,Communication Services,107.39,2017,0.21739130434782608
-India,Bharti Airtel,Communication Services,107.39,2018,0.125
-India,Bharti Airtel,Communication Services,107.39,2019,0.1891891891891892
-India,Bharti Airtel,Communication Services,107.39,2020,0.14583333333333334
-India,Bharti Airtel,Communication Services,107.39,2021,0.09090909090909091
-India,Bharti Airtel,Communication Services,107.39,2023,0.16666666666666666
-India,HDFC Bank,Financial Service,152.34,2014,0.09090909090909091
-India,HDFC Bank,Financial Service,152.34,2015,0.03125
-India,HDFC Bank,Financial Service,152.34,2016,0.08333333333333333
-India,HDFC Bank,Financial Service,152.34,2017,0.08333333333333333
-India,HDFC Bank,Financial Service,152.34,2018,0.1
-India,HDFC Bank,Financial Service,152.34,2019,0.0625
-India,HDFC Bank,Financial Service,152.34,2020,0.018867924528301886
-India,HDFC Bank,Financial Service,152.34,2022,0.16923076923076924
-India,HDFC Bank,Financial Service,152.34,2023,0.03571428571428571
-India,Hindustan Unilever,Consumer Staples,76.16,2015,0.08
-India,Hindustan Unilever,Consumer Staples,76.16,2017,0.0625
-India,Hindustan Unilever,Consumer Staples,76.16,2021,0.14285714285714285
-India,ICICI Bank,Financial Service,99.33,2014,0.05714285714285714
-India,ICICI Bank,Financial Service,99.33,2015,0.0625
-India,ICICI Bank,Financial Service,99.33,2018,0.2222222222222222
-India,ICICI Bank,Financial Service,99.33,2019,0.034482758620689655
-India,ICICI Bank,Financial Service,99.33,2020,0.03225806451612903
-India,ICICI Bank,Financial Service,99.33,2022,0.05555555555555555
-India,ITC,Consumer Staples,73.68,2014,0.0425531914893617
-India,ITC,Consumer Staples,73.68,2019,0.02631578947368421
-India,ITC,Consumer Staples,73.68,2020,0.022727272727272728
-India,ITC,Consumer Staples,73.68,2021,0.23076923076923078
-India,ITC,Consumer Staples,73.68,2022,0.03636363636363636
-India,ITC,Consumer Staples,73.68,2023,0.1
-India,Infosys,Information Technology,90.16,2015,0.18518518518518517
-India,Infosys,Information Technology,90.16,2016,0.08333333333333333
-India,Infosys,Information Technology,90.16,2017,0.13513513513513514
-India,Infosys,Information Technology,90.16,2018,0.16129032258064516
-India,Infosys,Information Technology,90.16,2019,0.22916666666666666
-India,Infosys,Information Technology,90.16,2021,0.2727272727272727
-India,Infosys,Information Technology,90.16,2023,0.2222222222222222
-India,Kotak Mahindra Bank,Financial Service,41.8,2015,0.23529411764705882
-India,Kotak Mahindra Bank,Financial Service,41.8,2016,0.15384615384615385
-India,Kotak Mahindra Bank,Financial Service,41.8,2017,0.2
-India,Kotak Mahindra Bank,Financial Service,41.8,2018,0.2857142857142857
-India,Kotak Mahindra Bank,Financial Service,41.8,2019,0.20930232558139536
-India,Kotak Mahindra Bank,Financial Service,41.8,2020,0.14285714285714285
-India,Kotak Mahindra Bank,Financial Service,41.8,2021,0.1
-India,Kotak Mahindra Bank,Financial Service,41.8,2023,0.3125
-India,Larsen & Toubro,Industries,58.58,2015,0.0625
-India,Larsen & Toubro,Industries,58.58,2016,0.23529411764705882
-India,Larsen & Toubro,Industries,58.58,2017,0.13725490196078433
-India,Larsen & Toubro,Industries,58.58,2018,0.10810810810810811
-India,Larsen & Toubro,Industries,58.58,2021,0.3
-India,Larsen & Toubro,Industries,58.58,2023,0.1276595744680851
-India,NTPC Limited,Energy,45.66,2014,0.21052631578947367
-India,NTPC Limited,Energy,45.66,2015,0.5
-India,NTPC Limited,Energy,45.66,2016,0.25
-India,NTPC Limited,Energy,45.66,2017,0.2857142857142857
-India,NTPC Limited,Energy,45.66,2018,0.4666666666666667
-India,NTPC Limited,Energy,45.66,2019,0.26666666666666666
-India,NTPC Limited,Energy,45.66,2020,0.23809523809523808
-India,NTPC Limited,Energy,45.66,2021,0.1111111111111111
-India,Sun Pharmaceutical,Health Care,52.18,2015,0.3333333333333333
-India,Sun Pharmaceutical,Health Care,52.18,2017,0.5
-India,Sun Pharmaceutical,Health Care,52.18,2018,1.0
-India,Sun Pharmaceutical,Health Care,52.18,2020,0.6666666666666666
-India,Sun Pharmaceutical,Health Care,52.18,2022,0.4
-India,Sun Pharmaceutical,Health Care,52.18,2023,0.5
-India,Tata Consultancy Services,Information Technology,189.9,2015,0.14035087719298245
-India,Tata Consultancy Services,Information Technology,189.9,2016,0.30612244897959184
-India,Tata Consultancy Services,Information Technology,189.9,2017,0.28378378378378377
-India,Tata Consultancy Services,Information Technology,189.9,2018,0.2777777777777778
-India,Tata Consultancy Services,Information Technology,189.9,2019,0.26804123711340205
-India,Tata Consultancy Services,Information Technology,189.9,2020,0.2621359223300971
-India,Tata Consultancy Services,Information Technology,189.9,2021,0.2222222222222222
-India,Tata Consultancy Services,Information Technology,189.9,2023,0.3333333333333333
-USA,APPLE,Information Technology,3371.0,2014,1.0
-USA,APPLE,Information Technology,3371.0,2015,1.0
-USA,APPLE,Information Technology,3371.0,2017,1.0
-USA,APPLE,Information Technology,3371.0,2019,1.0
-USA,APPLE,Information Technology,3371.0,2020,1.0
-USA,APPLE,Information Technology,3371.0,2022,1.0
-USA,APPLE,Information Technology,3371.0,2023,1.0
-USA,Amazon,Information Technology,1761.0,2014,0.4482758620689655
-USA,Amazon,Information Technology,1761.0,2015,0.4666666666666667
-USA,Amazon,Information Technology,1761.0,2016,0.6
-USA,Amazon,Information Technology,1761.0,2017,0.45
-USA,Amazon,Information Technology,1761.0,2018,0.5
-USA,Amazon,Information Technology,1761.0,2019,0.36363636363636365
-USA,Amazon,Information Technology,1761.0,2020,0.4230769230769231
-USA,Amazon,Information Technology,1761.0,2021,0.375
-USA,Amazon,Information Technology,1761.0,2022,0.375
-USA,Amazon,Information Technology,1761.0,2023,0.625
-USA,Broadcom,Information Technology,669.46,2014,0.3333333333333333
-USA,Broadcom,Information Technology,669.46,2015,0.5714285714285714
-USA,Broadcom,Information Technology,669.46,2016,0.3333333333333333
-USA,Broadcom,Information Technology,669.46,2018,0.5
-USA,Broadcom,Information Technology,669.46,2020,0.5
-USA,Broadcom,Information Technology,669.46,2021,0.5
-USA,Broadcom,Information Technology,669.46,2022,0.42857142857142855
-USA,Broadcom,Information Technology,669.46,2023,0.2857142857142857
-USA,Eli Lilly,Health Care,724.33,2014,1.0
-USA,Eli Lilly,Health Care,724.33,2015,1.0
-USA,Eli Lilly,Health Care,724.33,2017,1.0
-USA,Eli Lilly,Health Care,724.33,2019,1.0
-USA,Eli Lilly,Health Care,724.33,2020,1.0
-USA,Eli Lilly,Health Care,724.33,2022,1.0
-USA,Eli Lilly,Health Care,724.33,2023,1.0
-USA,Johnson&Johnson,Health Care,395.7,2014,0.6190476190476191
-USA,Johnson&Johnson,Health Care,395.7,2015,0.5882352941176471
-USA,Johnson&Johnson,Health Care,395.7,2016,0.8571428571428571
-USA,Johnson&Johnson,Health Care,395.7,2017,0.4444444444444444
-USA,Johnson&Johnson,Health Care,395.7,2018,0.5454545454545454
-USA,Johnson&Johnson,Health Care,395.7,2019,0.55
-USA,Johnson&Johnson,Health Care,395.7,2020,0.5652173913043478
-USA,Johnson&Johnson,Health Care,395.7,2021,0.875
-USA,Johnson&Johnson,Health Care,395.7,2022,0.6538461538461539
-USA,Johnson&Johnson,Health Care,395.7,2023,0.6153846153846154
-USA,Mastercard,Financial Service,439.85,2014,0.46875
-USA,Mastercard,Financial Service,439.85,2015,0.5
-USA,Mastercard,Financial Service,439.85,2017,0.4782608695652174
-USA,Mastercard,Financial Service,439.85,2018,0.5714285714285714
-USA,Mastercard,Financial Service,439.85,2019,0.41379310344827586
-USA,Mastercard,Financial Service,439.85,2020,0.5
-USA,Mastercard,Financial Service,439.85,2021,0.5454545454545454
-USA,Mastercard,Financial Service,439.85,2022,0.4523809523809524
-USA,Mastercard,Financial Service,439.85,2023,0.5
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2014,0.7536231884057971
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2015,0.7142857142857143
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2016,0.7142857142857143
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2017,0.7317073170731707
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2018,0.7333333333333333
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2019,0.78
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2020,0.84375
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2021,0.8333333333333334
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2022,0.7906976744186046
-USA,Meta Platforms (Facebook),Information Technology,1234.0,2023,0.8292682926829268
-USA,Morgan&Chase,Financial Service,604.48,2014,0.25
-USA,Morgan&Chase,Financial Service,604.48,2015,0.16326530612244897
-USA,Morgan&Chase,Financial Service,604.48,2016,0.07142857142857142
-USA,Morgan&Chase,Financial Service,604.48,2017,0.25862068965517243
-USA,Morgan&Chase,Financial Service,604.48,2018,0.14285714285714285
-USA,Morgan&Chase,Financial Service,604.48,2019,0.15
-USA,Morgan&Chase,Financial Service,604.48,2020,0.3333333333333333
-USA,Morgan&Chase,Financial Service,604.48,2021,0.3333333333333333
-USA,Morgan&Chase,Financial Service,604.48,2022,0.2
-USA,Morgan&Chase,Financial Service,604.48,2023,0.14705882352941177
-USA,NVIDIA,Information Technology,2638.0,2014,0.21705426356589147
-USA,NVIDIA,Information Technology,2638.0,2015,0.16891891891891891
-USA,NVIDIA,Information Technology,2638.0,2016,0.2711864406779661
-USA,NVIDIA,Information Technology,2638.0,2017,0.23163841807909605
-USA,NVIDIA,Information Technology,2638.0,2018,0.24489795918367346
-USA,NVIDIA,Information Technology,2638.0,2019,0.21962616822429906
-USA,NVIDIA,Information Technology,2638.0,2020,0.20675105485232068
-USA,NVIDIA,Information Technology,2638.0,2021,0.20588235294117646
-USA,NVIDIA,Information Technology,2638.0,2022,0.20714285714285716
-USA,NVIDIA,Information Technology,2638.0,2023,0.2265625
-USA,Oracle,Information Technology,390.8,2014,0.044444444444444446
-USA,Oracle,Information Technology,390.8,2017,0.15789473684210525
-USA,Oracle,Information Technology,390.8,2018,0.2
-USA,Oracle,Information Technology,390.8,2019,0.16129032258064516
-USA,Oracle,Information Technology,390.8,2020,0.07894736842105263
-USA,Oracle,Information Technology,390.8,2022,0.05660377358490566
-USA,Procter&Gamble,Consumer Staples,412.58,2023,0.5
-USA,Tesla,Industries,663.43,2014,0.21428571428571427
-USA,Tesla,Industries,663.43,2015,0.375
-USA,Tesla,Industries,663.43,2016,0.6
-USA,Tesla,Industries,663.43,2017,0.3333333333333333
-USA,Tesla,Industries,663.43,2019,0.3333333333333333
-USA,Tesla,Industries,663.43,2020,0.14285714285714285
-USA,Tesla,Industries,663.43,2021,0.3333333333333333
-USA,Tesla,Industries,663.43,2022,0.5
-USA,Tesla,Industries,663.43,2023,0.375
-USA,United Health,Health Care,551.16,2014,0.14285714285714285
-USA,United Health,Health Care,551.16,2015,0.07692307692307693
-USA,United Health,Health Care,551.16,2017,0.08333333333333333
-USA,United Health,Health Care,551.16,2019,0.07692307692307693
-USA,United Health,Health Care,551.16,2020,0.07142857142857142
-USA,United Health,Health Care,551.16,2022,0.13333333333333333
-USA,Visa,Financial Service,543.62,2014,0.10526315789473684
-USA,Visa,Financial Service,543.62,2015,0.16666666666666666
-USA,Visa,Financial Service,543.62,2017,0.36363636363636365
-USA,Visa,Financial Service,543.62,2019,0.06666666666666667
-USA,Visa,Financial Service,543.62,2020,0.05555555555555555
-USA,Visa,Financial Service,543.62,2022,0.21052631578947367
-USA,Visa,Financial Service,543.62,2023,0.5
-USA,Walmart,Consumer Staples,616.05,2019,0.3333333333333333
-USA,Walmart,Consumer Staples,616.05,2020,0.6666666666666666
+China,Agricultural Bank of China,Financial Service,221.35,2014,-0.9540182563908016
+China,Agricultural Bank of China,Financial Service,221.35,2015,-0.8092598590638157
+China,Agricultural Bank of China,Financial Service,221.35,2016,-0.6597275655211006
+China,Agricultural Bank of China,Financial Service,221.35,2017,-0.845148067175261
+China,Agricultural Bank of China,Financial Service,221.35,2018,-1.0600955247775325
+China,Agricultural Bank of China,Financial Service,221.35,2019,-1.0203302988440923
+China,Agricultural Bank of China,Financial Service,221.35,2020,-0.9639861111145058
+China,Agricultural Bank of China,Financial Service,221.35,2021,-0.5562958369988642
+China,Agricultural Bank of China,Financial Service,221.35,2022,-0.9486488493278252
+China,Agricultural Bank of China,Financial Service,221.35,2023,-0.9973460432326101
+China,BYD,Industries,98.15,2014,0.0841635493591852
+China,BYD,Industries,98.15,2015,-0.13910305249312352
+China,BYD,Industries,98.15,2016,-0.1838235332687764
+China,BYD,Industries,98.15,2017,0.24514087306949206
+China,BYD,Industries,98.15,2018,-0.05275131282748173
+China,BYD,Industries,98.15,2019,0.18809964493566406
+China,BYD,Industries,98.15,2020,0.18668197869117364
+China,BYD,Industries,98.15,2021,-0.38155701811088205
+China,BYD,Industries,98.15,2022,0.3234626633536831
+China,BYD,Industries,98.15,2023,0.08607275516369149
+China,Bank of China,Financial Service,175.5,2015,-1.0358299721133843
+China,Bank of China,Financial Service,175.5,2016,-1.038884360484377
+China,Bank of China,Financial Service,175.5,2018,-1.0675737022861342
+China,Bank of China,Financial Service,175.5,2021,-1.1740734723900499
+China,Bank of China,Financial Service,175.5,2023,-0.9791008942134677
+China,CM Bank,Financial Service,108.68,2015,-0.9050876246258739
+China,CM Bank,Financial Service,108.68,2016,-1.0593229884831672
+China,CM Bank,Financial Service,108.68,2017,-0.8028590312095583
+China,CM Bank,Financial Service,108.68,2018,-0.8677152126916614
+China,CM Bank,Financial Service,108.68,2019,-0.9563703832745213
+China,CM Bank,Financial Service,108.68,2020,-0.8636582248132801
+China,CM Bank,Financial Service,108.68,2021,-0.4498402141998999
+China,CM Bank,Financial Service,108.68,2023,-0.949186165026695
+China,CNOOC,Energy,124.7,2014,-0.7753454587962735
+China,CNOOC,Energy,124.7,2015,-0.8958378724449444
+China,CNOOC,Energy,124.7,2017,-0.8355090285605549
+China,CNOOC,Energy,124.7,2018,-0.8950888733877904
+China,CNOOC,Energy,124.7,2019,-1.0497678282144471
+China,CNOOC,Energy,124.7,2020,-0.9686157887597704
+China,CNOOC,Energy,124.7,2022,-0.8841587935367353
+China,CNOOC,Energy,124.7,2023,-0.8950888733877904
+China,China Construction Bank,Financial Service,178.16,2015,-1.1012325385732438
+China,China Construction Bank,Financial Service,178.16,2016,-1.1337654325836344
+China,China Construction Bank,Financial Service,178.16,2018,-1.015264722025025
+China,China Construction Bank,Financial Service,178.16,2021,-0.8183104829191469
+China,China Construction Bank,Financial Service,178.16,2023,-0.9903071193224747
+China,China Iife Insurance,Financial Service,111.24,2014,-0.4852096462625413
+China,China Iife Insurance,Financial Service,111.24,2015,-0.8771460626700633
+China,China Iife Insurance,Financial Service,111.24,2016,-1.0162571585548783
+China,China Iife Insurance,Financial Service,111.24,2017,-0.6537532925533637
+China,China Iife Insurance,Financial Service,111.24,2018,-0.9599097910803286
+China,China Iife Insurance,Financial Service,111.24,2019,-0.7267166156142646
+China,China Iife Insurance,Financial Service,111.24,2020,-0.7377430830676766
+China,China Iife Insurance,Financial Service,111.24,2021,-0.9053199042132759
+China,China Iife Insurance,Financial Service,111.24,2022,-0.41480586837076877
+China,China Iife Insurance,Financial Service,111.24,2023,-0.8348942167025428
+China,China Mobile,Communication Services,206.74,2014,-0.8610820455110203
+China,China Mobile,Communication Services,206.74,2015,-1.0652708747275474
+China,China Mobile,Communication Services,206.74,2016,-1.1246363580864647
+China,China Mobile,Communication Services,206.74,2017,-1.091030475126605
+China,China Mobile,Communication Services,206.74,2018,-1.098172784837324
+China,China Mobile,Communication Services,206.74,2019,-0.8872159072903766
+China,China Mobile,Communication Services,206.74,2020,-0.8084258801742181
+China,China Mobile,Communication Services,206.74,2021,-0.9248566255449736
+China,China Mobile,Communication Services,206.74,2023,-1.073222378869229
+China,China Shenhua Energy,Energy,103.81,2015,-1.1700707452861063
+China,China Shenhua Energy,Energy,103.81,2016,-1.2092208495843608
+China,China Shenhua Energy,Energy,103.81,2018,-1.149058232050113
+China,China Shenhua Energy,Energy,103.81,2021,0.23132809302687055
+China,China Shenhua Energy,Energy,103.81,2023,-1.1989315034619747
+China,China Yangtze Power,Energy,100.53,2020,0.6994359016424507
+China,China Yangtze Power,Energy,100.53,2021,0.8273883176020658
+China,China Yangtze Power,Energy,100.53,2022,1.0367071831134673
+China,China Yangtze Power,Energy,100.53,2023,1.386766886734889
+China,ICBC,Financial Service,267.08,2014,-0.9661710207609641
+China,ICBC,Financial Service,267.08,2015,-0.9891772226842612
+China,ICBC,Financial Service,267.08,2016,-1.0143183620072316
+China,ICBC,Financial Service,267.08,2017,-0.9882492597110432
+China,ICBC,Financial Service,267.08,2018,-0.9117570262747835
+China,ICBC,Financial Service,267.08,2019,-1.0302798782692288
+China,ICBC,Financial Service,267.08,2020,-1.0023170102943975
+China,ICBC,Financial Service,267.08,2021,-1.1254622462681967
+China,ICBC,Financial Service,267.08,2022,-0.9265078282574422
+China,ICBC,Financial Service,267.08,2023,-0.9837815657238531
+China,Meituan,Information Technology,93.17,2018,-0.16308502717476306
+China,Meituan,Information Technology,93.17,2019,-0.35700558514465586
+China,Meituan,Information Technology,93.17,2020,-0.26603164367156873
+China,Meituan,Information Technology,93.17,2021,-0.2146470513133524
+China,Meituan,Information Technology,93.17,2022,-0.23747867130994094
+China,Meituan,Information Technology,93.17,2023,-0.046849836533344874
+China,PetroChina,Energy,218.98,2016,1.2871675313244377
+China,Pinduoduo,Information Technology,176.94,2018,-0.00411152863023441
+China,Pinduoduo,Information Technology,176.94,2019,-0.19206898844726827
+China,Pinduoduo,Information Technology,176.94,2020,0.3697907347062581
+China,Pinduoduo,Information Technology,176.94,2021,1.2356041019499187
+China,Pinduoduo,Information Technology,176.94,2022,0.44110751032990964
+China,Pinduoduo,Information Technology,176.94,2023,0.6737108173929366
+China,PingAn Insurance,Financial Service,100.07,2014,-0.8542918008764413
+China,PingAn Insurance,Financial Service,100.07,2015,-0.6622089268100254
+China,PingAn Insurance,Financial Service,100.07,2016,-0.8908349711522002
+China,PingAn Insurance,Financial Service,100.07,2017,-0.8372671461432573
+China,PingAn Insurance,Financial Service,100.07,2018,-0.8396520170623326
+China,PingAn Insurance,Financial Service,100.07,2019,-0.7225772344259216
+China,PingAn Insurance,Financial Service,100.07,2020,-0.8055810824382886
+China,PingAn Insurance,Financial Service,100.07,2021,-0.9223094212201443
+China,PingAn Insurance,Financial Service,100.07,2022,-0.8065708030904283
+China,PingAn Insurance,Financial Service,100.07,2023,-0.8460965185752203
+China,Sinopec,Energy,104.55,2014,-0.8449188073552693
+China,Sinopec,Energy,104.55,2016,-0.8254134128012945
+China,Sinopec,Energy,104.55,2018,-0.783873576974449
+China,Sinopec,Energy,104.55,2019,-0.799382753790865
+China,Sinopec,Energy,104.55,2020,-0.7959667654924251
+China,Sinopec,Energy,104.55,2022,-0.8152170067805334
+China,Sinopec,Energy,104.55,2023,-0.8209181588207736
+China,Tencent,Information Technology,428.32,2014,-0.4930316939797543
+China,Tencent,Information Technology,428.32,2015,-0.3239218968776197
+China,Tencent,Information Technology,428.32,2016,-0.9013946201234267
+China,Tencent,Information Technology,428.32,2017,-0.5599504705653209
+China,Tencent,Information Technology,428.32,2018,-0.7513098170408956
+China,Tencent,Information Technology,428.32,2019,-0.5684858154443782
+China,Tencent,Information Technology,428.32,2020,-0.5496020929570135
+China,Tencent,Information Technology,428.32,2021,-0.21990693295802616
+China,Tencent,Information Technology,428.32,2022,-0.47048263220935815
+China,Tencent,Information Technology,428.32,2023,-0.4172364489037261
+Germany,Adidas,Consumer Discretionary,244.57,2014,-1.0799646251614032
+Germany,Adidas,Consumer Discretionary,244.57,2015,-1.1628342364780777
+Germany,Adidas,Consumer Discretionary,244.57,2017,-1.0050622293691018
+Germany,Adidas,Consumer Discretionary,244.57,2019,-1.028504957666621
+Germany,Adidas,Consumer Discretionary,244.57,2020,-1.0427971588094205
+Germany,Adidas,Consumer Discretionary,244.57,2022,-0.8495184416164585
+Germany,Adidas,Consumer Discretionary,244.57,2023,-0.5909481389372218
+Germany,Allianz,Financial Service,106.68,2014,-0.1692296722094761
+Germany,Allianz,Financial Service,106.68,2015,-0.2836861382109018
+Germany,Allianz,Financial Service,106.68,2016,-0.7622308906520021
+Germany,Allianz,Financial Service,106.68,2017,-0.5041541943378917
+Germany,Allianz,Financial Service,106.68,2018,1.3473463531405887
+Germany,Allianz,Financial Service,106.68,2019,-0.5533994100992478
+Germany,Allianz,Financial Service,106.68,2020,0.004444037338207686
+Germany,Allianz,Financial Service,106.68,2021,-1.1888186572500827
+Germany,Allianz,Financial Service,106.68,2023,-0.09481191913710257
+Germany,BASF,Industries,42.93,2014,-0.6468951683706254
+Germany,BASF,Industries,42.93,2015,-0.4197928892879704
+Germany,BASF,Industries,42.93,2016,-0.6439070926954815
+Germany,BASF,Industries,42.93,2017,-0.7741815058726133
+Germany,BASF,Industries,42.93,2018,-0.6949070213681717
+Germany,BASF,Industries,42.93,2019,-0.3114265177677856
+Germany,BASF,Industries,42.93,2020,-0.7528431052517108
+Germany,BASF,Industries,42.93,2021,-0.30621273512506475
+Germany,BASF,Industries,42.93,2022,-0.7167961259743062
+Germany,BASF,Industries,42.93,2023,-0.7477023642711833
+Germany,BMW,Industries,55.03,2014,-0.6327033427916666
+Germany,BMW,Industries,55.03,2015,-0.9403098852426479
+Germany,BMW,Industries,55.03,2016,-1.0577770006808382
+Germany,BMW,Industries,55.03,2017,-0.574563427670481
+Germany,BMW,Industries,55.03,2018,-0.9519741454784422
+Germany,BMW,Industries,55.03,2019,-0.5916731561963078
+Germany,BMW,Industries,55.03,2020,-1.0110591020194388
+Germany,BMW,Industries,55.03,2021,-0.5935942972234838
+Germany,BMW,Industries,55.03,2022,-0.8096113887439639
+Germany,BMW,Industries,55.03,2023,-0.6313368531923901
+Germany,Beiersdorf,Consumer Staples,32.13,2014,-0.3785373556884987
+Germany,Beiersdorf,Consumer Staples,32.13,2015,-0.9893660445166411
+Germany,Beiersdorf,Consumer Staples,32.13,2016,-0.7966443911870864
+Germany,Beiersdorf,Consumer Staples,32.13,2017,-1.039170481534412
+Germany,Beiersdorf,Consumer Staples,32.13,2019,-0.988867009427128
+Germany,Beiersdorf,Consumer Staples,32.13,2020,-1.022723389130663
+Germany,Beiersdorf,Consumer Staples,32.13,2021,-0.9269865202342008
+Germany,Beiersdorf,Consumer Staples,32.13,2022,-0.8567245260763072
+Germany,Beiersdorf,Consumer Staples,32.13,2023,-0.9071038829323931
+Germany,DHL Group,Industries,49.82,2014,-0.537819235296772
+Germany,DHL Group,Industries,49.82,2015,-0.1893912150853229
+Germany,DHL Group,Industries,49.82,2017,-0.3707410747249405
+Germany,DHL Group,Industries,49.82,2018,-1.0140595176772202
+Germany,DHL Group,Industries,49.82,2019,-0.21167504984953736
+Germany,DHL Group,Industries,49.82,2020,-0.20066894396937643
+Germany,DHL Group,Industries,49.82,2021,-1.082875170147608
+Germany,DHL Group,Industries,49.82,2022,-0.6138557988375046
+Germany,DHL Group,Industries,49.82,2023,-0.5902979084602916
+Germany,Deutsche Börse,Financial Service,41.91,2015,-0.20718621778038276
+Germany,Deutsche Börse,Financial Service,41.91,2017,-0.5632727736420174
+Germany,Deutsche Börse,Financial Service,41.91,2018,-0.8864880343474648
+Germany,Deutsche Börse,Financial Service,41.91,2019,-0.4068831784345945
+Germany,Deutsche Börse,Financial Service,41.91,2020,-0.42622647222303384
+Germany,Deutsche Börse,Financial Service,41.91,2021,-0.9564468169618183
+Germany,Deutsche Börse,Financial Service,41.91,2023,-0.7193126828948082
+Germany,Hannover Rück,Financial Service,33.67,2014,-0.18195379366361078
+Germany,Hannover Rück,Financial Service,33.67,2015,0.4538383912549636
+Germany,Hannover Rück,Financial Service,33.67,2017,0.19019197281356112
+Germany,Hannover Rück,Financial Service,33.67,2019,-0.0547366269706611
+Germany,Hannover Rück,Financial Service,33.67,2020,0.42877509593828456
+Germany,Hannover Rück,Financial Service,33.67,2022,-0.28166221952556936
+Germany,Hannover Rück,Financial Service,33.67,2023,0.5265851298805139
+Germany,Henkel,Consumer Staples,35.64,2014,-0.9078968469170913
+Germany,Henkel,Consumer Staples,35.64,2015,-0.9479777607829648
+Germany,Henkel,Consumer Staples,35.64,2017,-0.6444411239071465
+Germany,Henkel,Consumer Staples,35.64,2018,-0.7290845853868502
+Germany,Henkel,Consumer Staples,35.64,2019,-0.8787353931608382
+Germany,Henkel,Consumer Staples,35.64,2020,-0.7367872043323026
+Germany,Henkel,Consumer Staples,35.64,2021,-0.9211129089319113
+Germany,Henkel,Consumer Staples,35.64,2023,-0.2539322415501617
+Germany,Infineon,Industries,41.66,2014,-0.39718014211816305
+Germany,Infineon,Industries,41.66,2015,-0.362039940203546
+Germany,Infineon,Industries,41.66,2016,-0.5589756305719138
+Germany,Infineon,Industries,41.66,2017,-0.47186838635831324
+Germany,Infineon,Industries,41.66,2018,-0.46882744359762174
+Germany,Infineon,Industries,41.66,2019,-0.2787139099607758
+Germany,Infineon,Industries,41.66,2020,-0.3972623276330876
+Germany,Infineon,Industries,41.66,2021,-0.5735003931019282
+Germany,Infineon,Industries,41.66,2022,-0.3431159186719469
+Germany,Infineon,Industries,41.66,2023,-0.3391877867632135
+Germany,Mercedes-Benz,Industries,68.14,2014,-0.727596532639981
+Germany,Mercedes-Benz,Industries,68.14,2014,-0.7665600084731243
+Germany,Mercedes-Benz,Industries,68.14,2015,-0.9147702942824683
+Germany,Mercedes-Benz,Industries,68.14,2015,-0.8183073015083228
+Germany,Mercedes-Benz,Industries,68.14,2016,-0.9973698014801667
+Germany,Mercedes-Benz,Industries,68.14,2016,-1.0377247232812679
+Germany,Mercedes-Benz,Industries,68.14,2017,-0.8079962891398639
+Germany,Mercedes-Benz,Industries,68.14,2017,-0.8030901898086872
+Germany,Mercedes-Benz,Industries,68.14,2018,-0.9149006081109192
+Germany,Mercedes-Benz,Industries,68.14,2018,-1.1098596808012327
+Germany,Mercedes-Benz,Industries,68.14,2019,-0.5364208407501687
+Germany,Mercedes-Benz,Industries,68.14,2019,-0.674431795727826
+Germany,Mercedes-Benz,Industries,68.14,2020,-0.7271188723454917
+Germany,Mercedes-Benz,Industries,68.14,2020,-0.6881350067492625
+Germany,Mercedes-Benz,Industries,68.14,2022,-0.658733297376075
+Germany,Mercedes-Benz,Industries,68.14,2022,-0.5835233733037719
+Germany,Mercedes-Benz,Industries,68.14,2023,-0.5096412929283222
+Germany,Mercedes-Benz,Industries,68.14,2023,-0.4872791432824336
+Germany,Merck,Health Care,78.9,2014,-0.7350706160640784
+Germany,Merck,Health Care,78.9,2015,-0.4615331327555275
+Germany,Merck,Health Care,78.9,2016,-0.9940763265451947
+Germany,Merck,Health Care,78.9,2017,-0.5499469864236968
+Germany,Merck,Health Care,78.9,2018,-1.159844937512474
+Germany,Merck,Health Care,78.9,2019,-0.6783038380358254
+Germany,Merck,Health Care,78.9,2020,-0.7268646736977636
+Germany,Merck,Health Care,78.9,2021,-1.0537495514079913
+Germany,Merck,Health Care,78.9,2023,-0.4996249894982315
+Germany,Munich RE,Financial Service,63.39,2014,-0.6517010843096555
+Germany,Munich RE,Financial Service,63.39,2015,-0.790813889425699
+Germany,Munich RE,Financial Service,63.39,2016,-0.6705227992969534
+Germany,Munich RE,Financial Service,63.39,2017,-0.7058996900004127
+Germany,Munich RE,Financial Service,63.39,2018,-0.5221861811332414
+Germany,Munich RE,Financial Service,63.39,2019,-0.5856889629785771
+Germany,Munich RE,Financial Service,63.39,2020,-0.52671288925026
+Germany,Munich RE,Financial Service,63.39,2021,-0.626196663715884
+Germany,Munich RE,Financial Service,63.39,2022,-0.5845425023646261
+Germany,Munich RE,Financial Service,63.39,2023,-0.6653582425692566
+Germany,ON,Energy,38.46,2014,-0.021075208833387007
+Germany,ON,Energy,38.46,2015,0.1211714881877688
+Germany,ON,Energy,38.46,2016,1.128639328198865
+Germany,ON,Energy,38.46,2017,-0.5164304601357432
+Germany,ON,Energy,38.46,2018,0.0965141068907116
+Germany,ON,Energy,38.46,2019,-0.917955363671601
+Germany,ON,Energy,38.46,2020,-0.28867489675247493
+Germany,ON,Energy,38.46,2021,1.1520821479109586
+Germany,ON,Energy,38.46,2022,-0.4566853472806869
+Germany,ON,Energy,38.46,2023,-0.3858265161620801
+Germany,Porsche,Industries,67.4,2014,-0.6194949533801857
+Germany,Porsche,Industries,67.4,2015,-0.20592355451478278
+Germany,Porsche,Industries,67.4,2016,-0.5776429325541621
+Germany,Porsche,Industries,67.4,2017,-0.305064052158553
+Germany,Porsche,Industries,67.4,2018,-0.5387955788932922
+Germany,Porsche,Industries,67.4,2019,-0.29383935363078817
+Germany,Porsche,Industries,67.4,2020,-0.3139544447142049
+Germany,Porsche,Industries,67.4,2021,0.1550643534335253
+Germany,Porsche,Industries,67.4,2022,-0.3987079108674632
+Germany,Porsche,Industries,67.4,2023,-0.38484150908712317
+Germany,SAP,Information Technology,240.94,2014,-0.6320935157583529
+Germany,SAP,Information Technology,240.94,2015,-0.5504634670886223
+Germany,SAP,Information Technology,240.94,2016,-0.5287364925408802
+Germany,SAP,Information Technology,240.94,2017,-0.617318168283234
+Germany,SAP,Information Technology,240.94,2018,-0.7260583846268384
+Germany,SAP,Information Technology,240.94,2019,-0.6205275706410183
+Germany,SAP,Information Technology,240.94,2020,-0.623789016964055
+Germany,SAP,Information Technology,240.94,2021,-0.5500123537735748
+Germany,SAP,Information Technology,240.94,2022,-0.5702098807221969
+Germany,SAP,Information Technology,240.94,2023,-0.6489171647856717
+Germany,Siemens,Industries,135.42,2014,0.0894689112012452
+Germany,Siemens,Industries,135.42,2015,0.054707124511810076
+Germany,Siemens,Industries,135.42,2016,-0.09702602586811906
+Germany,Siemens,Industries,135.42,2017,0.07769379758761251
+Germany,Siemens,Industries,135.42,2018,-0.097826511479658
+Germany,Siemens,Industries,135.42,2019,-0.09564961108443931
+Germany,Siemens,Industries,135.42,2020,0.18483169417323994
+Germany,Siemens,Industries,135.42,2021,-0.22659138683240274
+Germany,Siemens,Industries,135.42,2022,0.131018112102128
+Germany,Siemens,Industries,135.42,2023,-0.06703590271511943
+Germany,Siemens Healthineers,Health Care,58.91,2014,0.4508359819468792
+Germany,Siemens Healthineers,Health Care,58.91,2016,-0.0700222151624312
+Germany,Siemens Healthineers,Health Care,58.91,2018,-0.2053977215070164
+Germany,Siemens Healthineers,Health Care,58.91,2019,1.021276498854383
+Germany,Siemens Healthineers,Health Care,58.91,2020,0.19188273781137277
+Germany,Siemens Healthineers,Health Care,58.91,2021,0.2855047173554856
+Germany,Siemens Healthineers,Health Care,58.91,2022,0.34169625235995954
+Germany,Siemens Healthineers,Health Care,58.91,2023,0.12017679487516764
+India,Axis Bank,Financial Service,42.72,2014,-1.2121159159716322
+India,Axis Bank,Financial Service,42.72,2015,-2.765820779908486
+India,Axis Bank,Financial Service,42.72,2016,-1.1458161724886733
+India,Axis Bank,Financial Service,42.72,2017,-1.0854614045586448
+India,Axis Bank,Financial Service,42.72,2018,-1.3058469556844423
+India,Axis Bank,Financial Service,42.72,2019,-1.0745295329601408
+India,Axis Bank,Financial Service,42.72,2020,-1.2494195268372212
+India,Axis Bank,Financial Service,42.72,2021,-1.1456392604471686
+India,Axis Bank,Financial Service,42.72,2022,-1.1874043422668403
+India,Axis Bank,Financial Service,42.72,2023,-1.2795012491138729
+India,Bajaj Finance,Financial Service,53.94,2014,-0.7840960867588108
+India,Bajaj Finance,Financial Service,53.94,2015,-0.9695911978396793
+India,Bajaj Finance,Financial Service,53.94,2016,-0.8136669900135666
+India,Bajaj Finance,Financial Service,53.94,2017,-1.0326363210271583
+India,Bajaj Finance,Financial Service,53.94,2018,-0.9358400280000219
+India,Bajaj Finance,Financial Service,53.94,2019,-0.9608251671525482
+India,Bajaj Finance,Financial Service,53.94,2020,-0.8023363689755957
+India,Bajaj Finance,Financial Service,53.94,2022,-1.0172848865164463
+India,Bajaj Finance,Financial Service,53.94,2023,-1.0040225299082577
+India,Bharti Airtel,Communication Services,107.39,2014,-1.024543997140508
+India,Bharti Airtel,Communication Services,107.39,2015,-0.9909900787914689
+India,Bharti Airtel,Communication Services,107.39,2016,-1.3763314127484727
+India,Bharti Airtel,Communication Services,107.39,2017,-0.7808288591019744
+India,Bharti Airtel,Communication Services,107.39,2018,-1.0463396631175708
+India,Bharti Airtel,Communication Services,107.39,2019,-0.9298069551885159
+India,Bharti Airtel,Communication Services,107.39,2020,-0.9450209859036645
+India,Bharti Airtel,Communication Services,107.39,2021,-1.0129267802726094
+India,Bharti Airtel,Communication Services,107.39,2023,-1.1213214890859389
+India,HDFC Bank,Financial Service,152.34,2014,-0.9395380868189191
+India,HDFC Bank,Financial Service,152.34,2015,-1.0914322988446208
+India,HDFC Bank,Financial Service,152.34,2016,-1.0393392490433642
+India,HDFC Bank,Financial Service,152.34,2017,-0.9520825547530875
+India,HDFC Bank,Financial Service,152.34,2018,-1.0115331769810707
+India,HDFC Bank,Financial Service,152.34,2019,-1.056086993456003
+India,HDFC Bank,Financial Service,152.34,2020,-1.1114635862600593
+India,HDFC Bank,Financial Service,152.34,2021,-1.2101633306586506
+India,HDFC Bank,Financial Service,152.34,2022,-0.7765887016399428
+India,HDFC Bank,Financial Service,152.34,2023,-1.0320929602179405
+India,Hindustan Unilever,Consumer Staples,76.16,2015,-0.860139663539365
+India,Hindustan Unilever,Consumer Staples,76.16,2016,-1.0362931780829705
+India,Hindustan Unilever,Consumer Staples,76.16,2017,-0.879299471529142
+India,Hindustan Unilever,Consumer Staples,76.16,2018,-0.998691294568974
+India,Hindustan Unilever,Consumer Staples,76.16,2021,-0.70792492832802
+India,Hindustan Unilever,Consumer Staples,76.16,2023,-1.0493826159016695
+India,ICICI Bank,Financial Service,99.33,2014,-1.1477966986568495
+India,ICICI Bank,Financial Service,99.33,2015,-1.0559438018348895
+India,ICICI Bank,Financial Service,99.33,2016,-1.1445875700486958
+India,ICICI Bank,Financial Service,99.33,2017,-1.3193572349501703
+India,ICICI Bank,Financial Service,99.33,2018,-0.7901339141624022
+India,ICICI Bank,Financial Service,99.33,2019,-1.2266181942050596
+India,ICICI Bank,Financial Service,99.33,2020,-1.2313112416936565
+India,ICICI Bank,Financial Service,99.33,2021,-1.2542042599766496
+India,ICICI Bank,Financial Service,99.33,2022,-1.124351435053937
+India,ICICI Bank,Financial Service,99.33,2023,-1.2348222747056257
+India,ITC,Consumer Staples,73.68,2014,-0.9514967483993134
+India,ITC,Consumer Staples,73.68,2015,-1.0456241568025277
+India,ITC,Consumer Staples,73.68,2016,-1.0699806032057047
+India,ITC,Consumer Staples,73.68,2017,-1.0170341195948887
+India,ITC,Consumer Staples,73.68,2018,-1.0191009069486292
+India,ITC,Consumer Staples,73.68,2019,-0.9968355454243291
+India,ITC,Consumer Staples,73.68,2020,-1.0046369742784684
+India,ITC,Consumer Staples,73.68,2021,-0.5714944998139025
+India,ITC,Consumer Staples,73.68,2022,-0.927171569267029
+India,ITC,Consumer Staples,73.68,2023,-0.7948825984896601
+India,Infosys,Information Technology,90.16,2015,-0.665001544782723
+India,Infosys,Information Technology,90.16,2016,-0.8706844949802116
+India,Infosys,Information Technology,90.16,2017,-0.7812261448155358
+India,Infosys,Information Technology,90.16,2018,-0.702130509353409
+India,Infosys,Information Technology,90.16,2019,-0.5851634983272249
+India,Infosys,Information Technology,90.16,2021,-0.4420877895858953
+India,Infosys,Information Technology,90.16,2023,-0.6003766206021384
+India,Kotak Mahindra Bank,Financial Service,41.8,2015,-0.7073440622800523
+India,Kotak Mahindra Bank,Financial Service,41.8,2016,-0.880051103796222
+India,Kotak Mahindra Bank,Financial Service,41.8,2017,-0.7570822420186532
+India,Kotak Mahindra Bank,Financial Service,41.8,2018,-0.7475106590720596
+India,Kotak Mahindra Bank,Financial Service,41.8,2019,-0.7888582267697286
+India,Kotak Mahindra Bank,Financial Service,41.8,2020,-0.8449522763170118
+India,Kotak Mahindra Bank,Financial Service,41.8,2021,-0.9798577276360136
+India,Kotak Mahindra Bank,Financial Service,41.8,2023,-0.5214295068323785
+India,Larsen & Toubro,Industries,58.58,2015,-0.9384729410041639
+India,Larsen & Toubro,Industries,58.58,2016,-0.6619321504100766
+India,Larsen & Toubro,Industries,58.58,2017,-0.7831584394176924
+India,Larsen & Toubro,Industries,58.58,2018,-0.8349292918663443
+India,Larsen & Toubro,Industries,58.58,2021,-0.6358813852515188
+India,Larsen & Toubro,Industries,58.58,2023,-0.8214165873264864
+India,NTPC Limited,Energy,45.66,2014,-0.6059922266796758
+India,NTPC Limited,Energy,45.66,2015,0.04328940519754976
+India,NTPC Limited,Energy,45.66,2016,-0.5632544712016924
+India,NTPC Limited,Energy,45.66,2017,-0.4920407597096528
+India,NTPC Limited,Energy,45.66,2018,-0.11002244267124048
+India,NTPC Limited,Energy,45.66,2019,-0.5323884681375447
+India,NTPC Limited,Energy,45.66,2020,-0.5433860717220819
+India,NTPC Limited,Energy,45.66,2021,-0.7628938357782918
+India,NTPC Limited,Energy,45.66,2023,-0.9035352016081147
+India,Sun Pharmaceutical,Health Care,52.18,2014,-0.8218807488175036
+India,Sun Pharmaceutical,Health Care,52.18,2015,-0.054911070520531756
+India,Sun Pharmaceutical,Health Care,52.18,2017,0.25684871402742465
+India,Sun Pharmaceutical,Health Care,52.18,2018,1.2401148822398107
+India,Sun Pharmaceutical,Health Care,52.18,2019,-0.7975518354922818
+India,Sun Pharmaceutical,Health Care,52.18,2020,0.5801506553298412
+India,Sun Pharmaceutical,Health Care,52.18,2022,0.0690370942461708
+India,Sun Pharmaceutical,Health Care,52.18,2023,0.19947551367079774
+India,Tata Consultancy Services,Information Technology,189.9,2015,-0.8356165497838677
+India,Tata Consultancy Services,Information Technology,189.9,2016,-0.47311061898935236
+India,Tata Consultancy Services,Information Technology,189.9,2017,-0.5520949118338337
+India,Tata Consultancy Services,Information Technology,189.9,2018,-0.6135475199316771
+India,Tata Consultancy Services,Information Technology,189.9,2019,-0.5808274161457527
+India,Tata Consultancy Services,Information Technology,189.9,2020,-0.597669337797451
+India,Tata Consultancy Services,Information Technology,189.9,2021,-0.6352742081035139
+India,Tata Consultancy Services,Information Technology,189.9,2023,-0.45378514877983733
+USA,APPLE,Information Technology,3371.0,2014,1.182428734563689
+USA,APPLE,Information Technology,3371.0,2015,1.1083246341947837
+USA,APPLE,Information Technology,3371.0,2017,1.2752918416065475
+USA,APPLE,Information Technology,3371.0,2019,1.3881657616290561
+USA,APPLE,Information Technology,3371.0,2020,1.25098060859553
+USA,APPLE,Information Technology,3371.0,2022,1.4112425702980962
+USA,APPLE,Information Technology,3371.0,2023,1.360840584656362
+USA,Amazon,Information Technology,1761.0,2014,-0.18627520839810502
+USA,Amazon,Information Technology,1761.0,2015,-0.08464089526278609
+USA,Amazon,Information Technology,1761.0,2016,0.08391846939321256
+USA,Amazon,Information Technology,1761.0,2017,-0.1413180601466631
+USA,Amazon,Information Technology,1761.0,2018,-0.10542895649054113
+USA,Amazon,Information Technology,1761.0,2019,-0.32839316302555344
+USA,Amazon,Information Technology,1761.0,2020,-0.22894920187181328
+USA,Amazon,Information Technology,1761.0,2021,-0.36505016759726483
+USA,Amazon,Information Technology,1761.0,2022,-0.36182413120650103
+USA,Amazon,Information Technology,1761.0,2023,0.3425730847041478
+USA,Broadcom,Information Technology,669.46,2014,-0.1983184310685553
+USA,Broadcom,Information Technology,669.46,2015,0.15115251047606684
+USA,Broadcom,Information Technology,669.46,2016,-0.18215673216408876
+USA,Broadcom,Information Technology,669.46,2018,0.1295565861152455
+USA,Broadcom,Information Technology,669.46,2020,0.17536759011721936
+USA,Broadcom,Information Technology,669.46,2021,0.1861301242633303
+USA,Broadcom,Information Technology,669.46,2022,-0.07343052963037813
+USA,Broadcom,Information Technology,669.46,2023,-0.37796190466153595
+USA,Eli Lilly,Health Care,724.33,2014,1.322062911715969
+USA,Eli Lilly,Health Care,724.33,2015,1.3053080718669636
+USA,Eli Lilly,Health Care,724.33,2017,1.3328203721077039
+USA,Eli Lilly,Health Care,724.33,2019,1.3336883366485666
+USA,Eli Lilly,Health Care,724.33,2020,1.314227501757624
+USA,Eli Lilly,Health Care,724.33,2022,1.5733664370475797
+USA,Eli Lilly,Health Care,724.33,2023,1.3475356668208758
+USA,Johnson&Johnson,Health Care,395.7,2014,0.37006466022707996
+USA,Johnson&Johnson,Health Care,395.7,2015,0.35427808496129587
+USA,Johnson&Johnson,Health Care,395.7,2016,0.9764993741431223
+USA,Johnson&Johnson,Health Care,395.7,2017,-0.013717447329478981
+USA,Johnson&Johnson,Health Care,395.7,2018,0.20824825181662998
+USA,Johnson&Johnson,Health Care,395.7,2019,0.22286586500114042
+USA,Johnson&Johnson,Health Care,395.7,2020,0.2820927652899516
+USA,Johnson&Johnson,Health Care,395.7,2021,0.8931742968840503
+USA,Johnson&Johnson,Health Care,395.7,2022,0.4926330817000775
+USA,Johnson&Johnson,Health Care,395.7,2023,0.3821038988452756
+USA,Mastercard,Financial Service,439.85,2014,0.06100235662000843
+USA,Mastercard,Financial Service,439.85,2015,0.08181299739147399
+USA,Mastercard,Financial Service,439.85,2017,0.046291697368842116
+USA,Mastercard,Financial Service,439.85,2018,0.21186297750169533
+USA,Mastercard,Financial Service,439.85,2019,-0.11111073090704186
+USA,Mastercard,Financial Service,439.85,2020,0.14307466995023296
+USA,Mastercard,Financial Service,439.85,2021,0.23631132852550663
+USA,Mastercard,Financial Service,439.85,2022,-0.004192724817597973
+USA,Mastercard,Financial Service,439.85,2023,0.09522914583639246
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2014,0.43489106411333095
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2015,0.38087713236527765
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2016,0.3824454903857997
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2017,0.3808829719808852
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2018,0.4301509868238019
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2019,0.4824467359169911
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2020,0.6101197464913573
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2021,0.6094129383945308
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2022,0.5213672031078498
+USA,Meta Platforms (Facebook),Information Technology,1234.0,2023,0.6247804860813654
+USA,Morgan&Chase,Financial Service,604.48,2014,-0.5343029451870089
+USA,Morgan&Chase,Financial Service,604.48,2015,-0.860843048102716
+USA,Morgan&Chase,Financial Service,604.48,2016,-0.9937075516122863
+USA,Morgan&Chase,Financial Service,604.48,2017,-0.6171769866068643
+USA,Morgan&Chase,Financial Service,604.48,2018,-0.8017007217276327
+USA,Morgan&Chase,Financial Service,604.48,2019,-0.8256380191237819
+USA,Morgan&Chase,Financial Service,604.48,2020,-0.2949914719420583
+USA,Morgan&Chase,Financial Service,604.48,2021,-0.5415276078968971
+USA,Morgan&Chase,Financial Service,604.48,2022,-0.684428985129568
+USA,Morgan&Chase,Financial Service,604.48,2023,-0.8064523617726423
+USA,NVIDIA,Information Technology,2638.0,2014,-0.5373319754956254
+USA,NVIDIA,Information Technology,2638.0,2015,-0.6380390655073928
+USA,NVIDIA,Information Technology,2638.0,2016,-0.43541203476731577
+USA,NVIDIA,Information Technology,2638.0,2017,-0.5063246047167371
+USA,NVIDIA,Information Technology,2638.0,2018,-0.47857149246711667
+USA,NVIDIA,Information Technology,2638.0,2019,-0.5266829293650929
+USA,NVIDIA,Information Technology,2638.0,2020,-0.5614798761934188
+USA,NVIDIA,Information Technology,2638.0,2021,-0.580090544654823
+USA,NVIDIA,Information Technology,2638.0,2022,-0.557109318012042
+USA,NVIDIA,Information Technology,2638.0,2023,-0.532132795865117
+USA,Oracle,Information Technology,390.8,2014,-0.9799435421700932
+USA,Oracle,Information Technology,390.8,2015,-1.0514587126811743
+USA,Oracle,Information Technology,390.8,2016,-1.120131801912333
+USA,Oracle,Information Technology,390.8,2017,-0.7297175652988259
+USA,Oracle,Information Technology,390.8,2018,-0.7352542152034819
+USA,Oracle,Information Technology,390.8,2019,-0.7324667949886363
+USA,Oracle,Information Technology,390.8,2020,-0.8775080430658776
+USA,Oracle,Information Technology,390.8,2021,-1.017538625149469
+USA,Oracle,Information Technology,390.8,2022,-0.91385041627815
+USA,Oracle,Information Technology,390.8,2023,-0.9967649078964339
+USA,Procter&Gamble,Consumer Staples,412.58,2014,-1.0476938157442468
+USA,Procter&Gamble,Consumer Staples,412.58,2015,-1.154511147713376
+USA,Procter&Gamble,Consumer Staples,412.58,2017,-1.0914578840763296
+USA,Procter&Gamble,Consumer Staples,412.58,2018,-1.3308968998617157
+USA,Procter&Gamble,Consumer Staples,412.58,2019,-0.9905661648625144
+USA,Procter&Gamble,Consumer Staples,412.58,2020,-0.9894556976792753
+USA,Procter&Gamble,Consumer Staples,412.58,2022,-1.0142837966484757
+USA,Procter&Gamble,Consumer Staples,412.58,2023,0.06851532071467481
+USA,Tesla,Industries,663.43,2014,-0.4818691129836123
+USA,Tesla,Industries,663.43,2015,-0.12858099295877562
+USA,Tesla,Industries,663.43,2016,0.35355904789419845
+USA,Tesla,Industries,663.43,2017,-0.21737372966990753
+USA,Tesla,Industries,663.43,2019,-0.2460122888880639
+USA,Tesla,Industries,663.43,2020,-0.645470260632295
+USA,Tesla,Industries,663.43,2021,-0.15741553884498613
+USA,Tesla,Industries,663.43,2022,0.1275173696216848
+USA,Tesla,Industries,663.43,2023,-0.12342747772066887
+USA,United Health,Health Care,551.16,2014,-0.8969623705689901
+USA,United Health,Health Care,551.16,2015,-0.9278673475954293
+USA,United Health,Health Care,551.16,2017,-0.9821008839954177
+USA,United Health,Health Care,551.16,2019,-0.9309354973195076
+USA,United Health,Health Care,551.16,2020,-0.9494564589987189
+USA,United Health,Health Care,551.16,2022,-0.8176370769758972
+USA,United Health,Health Care,551.16,2023,-1.0811574673547761
+USA,Visa,Financial Service,543.62,2014,-0.8351111662579936
+USA,Visa,Financial Service,543.62,2015,-0.7871406868047379
+USA,Visa,Financial Service,543.62,2017,-0.4139668931657922
+USA,Visa,Financial Service,543.62,2018,-1.1239221483112136
+USA,Visa,Financial Service,543.62,2019,-0.9952920354128566
+USA,Visa,Financial Service,543.62,2020,-1.0004925800151678
+USA,Visa,Financial Service,543.62,2021,-1.124759976274454
+USA,Visa,Financial Service,543.62,2022,-0.6663834205929616
+USA,Visa,Financial Service,543.62,2023,-0.086019625771857
+USA,Walmart,Consumer Staples,616.05,2014,-1.171398242761047
+USA,Walmart,Consumer Staples,616.05,2019,-0.6103560691426458
+USA,Walmart,Consumer Staples,616.05,2020,0.07935903617730582
+USA,Walmart,Consumer Staples,616.05,2022,-1.2951848174799863
