@@ -48,8 +48,8 @@ def get_labels(json_path: str, output_path: str):
 
 if __name__=='__main__':
 
-    json_path = os.path.join('retrieval', 'retrieved_docs.json')
-    output_path = os.path.join('retrieval', 'labels.json')
+    json_path = os.path.join('results', 'retrieved_docs.json')
+    output_path = os.path.join('results', 'distillbert_labels.json')
     
     get_labels(json_path, output_path)
 

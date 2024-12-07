@@ -92,10 +92,10 @@ def calculate_metrics_from_confusion_matrix(pos_pos, pos_neg, neg_pos, neg_neg):
 
 
 
-with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
+with open(os.path.join('results', 'distillbert_labels.json'), 'r') as f:
     label_data = json.load(f)
 
-with open(os.path.join('retrieval', 'gpt_labels.json')) as f:
+with open(os.path.join('results', 'roberta_labels.json')) as f:
     gpt_data = json.load(f)
 
 keys = list(label_data.keys())

@@ -1,5 +1,6 @@
 """
 Use FAISS documents for retrieval
+DEPRECATED
 """
 
 from langchain.vectorstores import FAISS
