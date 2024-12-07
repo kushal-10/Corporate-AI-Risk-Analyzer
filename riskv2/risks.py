@@ -71,7 +71,7 @@ def np_risk(results):
         n_similarity = util.pytorch_cos_sim(passage_emb, neg_emb)
         n_sim = n_similarity.item()
 
-        subrisk = (C*(n_sim/p_sim)) - ((1-C)*(p_sim/n_sim))
+        subrisk = (C*(n_sim/p_sim)) - ((1-C)*(p_sim/n_sim)) 
 
         sub_risks.append(subrisk)
 

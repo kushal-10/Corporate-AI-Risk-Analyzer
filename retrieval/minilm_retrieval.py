@@ -30,12 +30,13 @@ def find_keyword_in_passage(passage: str) -> Tuple[bool, str]:
     keywords = [
         r'artificial intelligence',
         r'machine learning',
+        r'neural networks',
+        r'language models',
+        r'generative models',
+        r'diffusion models',
         r'deep learning',
-        r'neural network',
-        r'natural language processing',
-        r'computer vision',
-        r'robotics',
-        r'data mining',
+        r'data engineering',
+        r'data science',
         r'big data'
     ]
     
@@ -100,6 +101,6 @@ def extract_passages(output_file: str):
 
 
 if __name__ == '__main__':
-    output_file = os.path.join("retrieval", "retrieved_docs.json")
+    output_file = os.path.join("retrieval", "retrieved_docs_v2.json")
     extract_passages(output_file)
     print(f"Retrieved Docs saved to : {output_file}")
