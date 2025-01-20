@@ -4,11 +4,11 @@ import pandas as pd
 from tqdm import tqdm
 import riskv2.risks as RISK
 
-with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
-    label_data = json.load(f)
+# with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
+#     label_data = json.load(f)
 
-with open(os.path.join('retrieval', 'gpt_labels.json')) as f:
-    gpt_data = json.load(f)
+# with open(os.path.join('retrieval', 'gpt_labels.json')) as f:
+#     gpt_data = json.load(f)
 
 def get_metadata(data_path: str):
     splits = data_path.split('_')
@@ -79,12 +79,19 @@ def generate_dataframe(json_data: str, output_path: str = "risk_data.csv"):
     return df
 
 if __name__ == '__main__':
-    with open(os.path.join('retrieval', 'labels.json'), 'r') as f:
-        label_data = json.load(f)
 
-    with open(os.path.join('retrieval', 'gpt_labels.json')) as f:
-        gpt_data = json.load(f)
+    file_mapping = {
+        "distillbert_labels.json": "distillbert.csv",
+        "roberta_labels.json": "roberta.csv",
+        "gpt_labels_a.json": "gpta.csv",
+        "gpt_labels_b.json": "gptb.csv",
+        "gpt_labels_c.json": "gptc.csv"
+    }
 
-    generate_dataframe(label_data, os.path.join('riskv2', 'bert.csv'))
-    generate_dataframe(gpt_data, os.path.join('riskv2', 'gpt.csv'))
+    for k in list(file_mapping.keys()):
 
+        with open(os.path.join('results', k), 'r') as f:
+            label_data = json.load(f)
+
+        generate_dataframe(label_data, os.path.join('v2resuts', file_mapping[k]))
+   
