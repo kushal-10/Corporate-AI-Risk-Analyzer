@@ -1,4 +1,4 @@
-# business-insights
+# Corporate-AI-Risk-Analyzer
 
 Toolkit for extracting AI-related content from corporate annual reports and measuring associated risks.
 
@@ -46,17 +46,11 @@ python retrieval/gpt_scores_a.py          # label passages with GPT‑4o‑mini
 Use the labeled passages to compute and visualise risk metrics:
 
 ```bash
-python riskv2/calculate_risk.py   # create riskv2/*.csv with aggregate risk scores
-python riskv2/analysis.py         # generate plots in the plots/ directory
+python risk/calculate_risk.py   # create risk/*.csv with aggregate risk scores
+python risk/analysis.py         # generate plots in the plots/ directory
 ```
 
 ## Results
 
-Generated artefacts such as retrieved passages, model labels, risk tables, and plots live under the `results/`, `riskv2/`, and `plots/` directories.
-
-## Alternative project names
-
-- **AI Risk Explorer**
-- **Corporate AI Risk Analyzer**
-- **Annual Report AI Insights**
+Generated artefacts such as retrieved passages, model labels, risk tables, and plots live under the `results/`, `risk/`, and `plots/` directories.
 
